@@ -1,0 +1,48 @@
+[INFO ] 29 Feb 2024 13:58:28 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on rkatuku-PC with PID 24328 (C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App\target\classes started by rkatu in C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App)
+[DEBUG] 29 Feb 2024 13:58:28 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 29 Feb 2024 13:58:28 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 29 Feb 2024 13:58:29 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 29 Feb 2024 13:58:29 [main] LoadData - Initialization Data
+[DEBUG] 29 Feb 2024 13:58:29 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 29 Feb 2024 13:58:30 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.942 seconds (JVM running for 2.651)
+[DEBUG] 29 Feb 2024 13:58:46 [http-nio-8080-exec-5] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 29 Feb 2024 13:58:46 [http-nio-8080-exec-5] PersonService - Request PersonInfo
+[DEBUG] 29 Feb 2024 13:58:46 [http-nio-8080-exec-5] PersonService - Request PersonInfo OK
+[INFO ] 29 Feb 2024 13:58:46 [http-nio-8080-exec-5] PersonController - OK 200 - personInfos GET request
+[INFO ] 29 Feb 2024 16:49:44 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on rkatuku-PC with PID 5064 (C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App\target\classes started by rkatu in C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App)
+[DEBUG] 29 Feb 2024 16:49:44 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 29 Feb 2024 16:49:44 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 29 Feb 2024 16:49:45 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 29 Feb 2024 16:49:45 [main] LoadData - Initialization Data
+[DEBUG] 29 Feb 2024 16:49:45 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 29 Feb 2024 16:49:45 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.898 seconds (JVM running for 2.602)
+[ERROR] 29 Feb 2024 16:50:27 [http-nio-8080-exec-2] PersonService - Error create person : John Boyd, person already exist
+[INFO ] 29 Feb 2024 16:50:27 [http-nio-8080-exec-2] PersonController - FAILED 409 - CONFLICT
+[INFO ] 29 Feb 2024 16:50:39 [http-nio-8080-exec-3] PersonController - OK 201 - Create Person POST request for Johnss Boydss
+[INFO ] 29 Feb 2024 17:04:05 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on rkatuku-PC with PID 5076 (C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App\target\classes started by rkatu in C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App)
+[DEBUG] 29 Feb 2024 17:04:06 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 29 Feb 2024 17:04:06 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 29 Feb 2024 17:04:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 29 Feb 2024 17:04:07 [main] LoadData - Initialization Data
+[DEBUG] 29 Feb 2024 17:04:07 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 29 Feb 2024 17:04:07 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 2.068 seconds (JVM running for 2.859)
+[DEBUG] 29 Feb 2024 17:05:23 [http-nio-8080-exec-2] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 29 Feb 2024 17:05:23 [http-nio-8080-exec-2] PersonService - Request PersonInfo
+[DEBUG] 29 Feb 2024 17:05:23 [http-nio-8080-exec-2] PersonService - Request PersonInfo OK
+[INFO ] 29 Feb 2024 17:05:23 [http-nio-8080-exec-2] PersonController - OK 200 - personInfos GET request
+[DEBUG] 29 Feb 2024 17:05:40 [http-nio-8080-exec-5] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 29 Feb 2024 17:05:40 [http-nio-8080-exec-5] PersonService - Request PersonInfo
+[DEBUG] 29 Feb 2024 17:05:40 [http-nio-8080-exec-5] PersonService - Request PersonInfo OK
+[INFO ] 29 Feb 2024 17:05:40 [http-nio-8080-exec-5] PersonController - OK 200 - personInfos GET request
+[INFO ] 29 Feb 2024 17:10:08 [http-nio-8080-exec-10] PersonController - OK 201 - Create Person POST request for Rajesh Kumar
+[ERROR] 29 Feb 2024 17:10:16 [http-nio-8080-exec-1] PersonService - Error create person : Rajesh Kumar, person already exist
+[INFO ] 29 Feb 2024 17:10:16 [http-nio-8080-exec-1] PersonController - FAILED 409 - CONFLICT
