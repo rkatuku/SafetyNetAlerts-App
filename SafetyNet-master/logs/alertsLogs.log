@@ -1,0 +1,1884 @@
+[INFO ] 29 Feb 2024 13:58:28 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on rkatuku-PC with PID 24328 (C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App\target\classes started by rkatu in C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App)
+[DEBUG] 29 Feb 2024 13:58:28 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 29 Feb 2024 13:58:28 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 29 Feb 2024 13:58:29 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 29 Feb 2024 13:58:29 [main] LoadData - Initialization Data
+[DEBUG] 29 Feb 2024 13:58:29 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 29 Feb 2024 13:58:30 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.942 seconds (JVM running for 2.651)
+[DEBUG] 29 Feb 2024 13:58:46 [http-nio-8080-exec-5] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 29 Feb 2024 13:58:46 [http-nio-8080-exec-5] PersonService - Request PersonInfo
+[DEBUG] 29 Feb 2024 13:58:46 [http-nio-8080-exec-5] PersonService - Request PersonInfo OK
+[INFO ] 29 Feb 2024 13:58:46 [http-nio-8080-exec-5] PersonController - OK 200 - personInfos GET request
+[INFO ] 29 Feb 2024 16:49:44 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on rkatuku-PC with PID 5064 (C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App\target\classes started by rkatu in C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App)
+[DEBUG] 29 Feb 2024 16:49:44 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 29 Feb 2024 16:49:44 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 29 Feb 2024 16:49:45 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 29 Feb 2024 16:49:45 [main] LoadData - Initialization Data
+[DEBUG] 29 Feb 2024 16:49:45 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 29 Feb 2024 16:49:45 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.898 seconds (JVM running for 2.602)
+[ERROR] 29 Feb 2024 16:50:27 [http-nio-8080-exec-2] PersonService - Error create person : John Boyd, person already exist
+[INFO ] 29 Feb 2024 16:50:27 [http-nio-8080-exec-2] PersonController - FAILED 409 - CONFLICT
+[INFO ] 29 Feb 2024 16:50:39 [http-nio-8080-exec-3] PersonController - OK 201 - Create Person POST request for Johnss Boydss
+[INFO ] 29 Feb 2024 17:04:05 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on rkatuku-PC with PID 5076 (C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App\target\classes started by rkatu in C:\Users\rkatu\Downloads\Openclasses\workspace\SafetyNetAlerts-App)
+[DEBUG] 29 Feb 2024 17:04:06 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 29 Feb 2024 17:04:06 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 29 Feb 2024 17:04:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 29 Feb 2024 17:04:07 [main] LoadData - Initialization Data
+[DEBUG] 29 Feb 2024 17:04:07 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 29 Feb 2024 17:04:07 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 2.068 seconds (JVM running for 2.859)
+[DEBUG] 29 Feb 2024 17:05:23 [http-nio-8080-exec-2] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 29 Feb 2024 17:05:23 [http-nio-8080-exec-2] PersonService - Request PersonInfo
+[DEBUG] 29 Feb 2024 17:05:23 [http-nio-8080-exec-2] PersonService - Request PersonInfo OK
+[INFO ] 29 Feb 2024 17:05:23 [http-nio-8080-exec-2] PersonController - OK 200 - personInfos GET request
+[DEBUG] 29 Feb 2024 17:05:40 [http-nio-8080-exec-5] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 29 Feb 2024 17:05:40 [http-nio-8080-exec-5] PersonService - Request PersonInfo
+[DEBUG] 29 Feb 2024 17:05:40 [http-nio-8080-exec-5] PersonService - Request PersonInfo OK
+[INFO ] 29 Feb 2024 17:05:40 [http-nio-8080-exec-5] PersonController - OK 200 - personInfos GET request
+[INFO ] 29 Feb 2024 17:10:08 [http-nio-8080-exec-10] PersonController - OK 201 - Create Person POST request for Rajesh Kumar
+[ERROR] 29 Feb 2024 17:10:16 [http-nio-8080-exec-1] PersonService - Error create person : Rajesh Kumar, person already exist
+[INFO ] 29 Feb 2024 17:10:16 [http-nio-8080-exec-1] PersonController - FAILED 409 - CONFLICT
+[INFO ] 13 Mar 2024 21:57:55 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on rkatuku-PC with PID 8376 (C:\Users\rkatu\git\repository\SafetyNetAlerts-App\target\classes started by rkatu in C:\Users\rkatu\git\repository\SafetyNetAlerts-App)
+[DEBUG] 13 Mar 2024 21:57:55 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 13 Mar 2024 21:57:55 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 13 Mar 2024 21:57:56 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 13 Mar 2024 21:57:56 [main] LoadData - Initialization Data
+[DEBUG] 13 Mar 2024 21:57:56 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 13 Mar 2024 21:57:57 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.889 seconds (JVM running for 2.644)
+[DEBUG] 13 Mar 2024 21:58:16 [http-nio-8080-exec-1] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 13 Mar 2024 21:58:16 [http-nio-8080-exec-1] PersonService - Request PersonInfo
+[DEBUG] 13 Mar 2024 21:58:16 [http-nio-8080-exec-1] PersonService - Request PersonInfo OK
+[INFO ] 13 Mar 2024 21:58:16 [http-nio-8080-exec-1] PersonController - OK 200 - personInfos GET request
+[INFO ] 20 Mar 2024 02:51:25 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 29904 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 20 Mar 2024 02:51:25 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 20 Mar 2024 02:51:25 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 20 Mar 2024 02:51:27 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 20 Mar 2024 02:51:27 [main] LoadData - Initialization Data
+[DEBUG] 20 Mar 2024 02:51:27 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 20 Mar 2024 02:51:27 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 2.452 seconds (JVM running for 3.564)
+[INFO ] 20 Mar 2024 03:25:56 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 27512 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 20 Mar 2024 03:25:56 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 20 Mar 2024 03:25:56 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 20 Mar 2024 03:25:57 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 20 Mar 2024 03:25:57 [main] LoadData - Initialization Data
+[DEBUG] 20 Mar 2024 03:25:57 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 20 Mar 2024 03:25:58 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.913 seconds (JVM running for 2.579)
+[ERROR] 20 Mar 2024 03:26:02 [http-nio-8080-exec-1] FireStationController - FAILED 404 - No FireStation found : <station_number. Check the station number
+[ERROR] 20 Mar 2024 03:26:37 [http-nio-8080-exec-6] FireStationController - FAILED 404 - No FireStation found : <station_number. Check the station number
+[INFO ] 20 Mar 2024 03:26:48 [http-nio-8080-exec-5] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:27:00 [http-nio-8080-exec-8] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:30:02 [http-nio-8080-exec-1] FireStationController - SUCCESS - Fire GET request
+[INFO ] 20 Mar 2024 03:31:44 [http-nio-8080-exec-6] FireStationController - SUCCESS - Fire GET request
+[INFO ] 20 Mar 2024 03:51:44 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 24772 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 20 Mar 2024 03:51:44 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 20 Mar 2024 03:51:44 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 20 Mar 2024 03:51:45 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 20 Mar 2024 03:51:45 [main] LoadData - Initialization Data
+[DEBUG] 20 Mar 2024 03:51:45 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 20 Mar 2024 03:51:46 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.896 seconds (JVM running for 10.983)
+[INFO ] 20 Mar 2024 03:52:01 [http-nio-8080-exec-1] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:52:04 [http-nio-8080-exec-2] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:52:05 [http-nio-8080-exec-6] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:52:18 [http-nio-8080-exec-4] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:56:29 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 4232 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 20 Mar 2024 03:56:29 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 20 Mar 2024 03:56:29 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 20 Mar 2024 03:56:30 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 20 Mar 2024 03:56:30 [main] LoadData - Initialization Data
+[DEBUG] 20 Mar 2024 03:56:30 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 20 Mar 2024 03:56:31 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.803 seconds (JVM running for 2.465)
+[INFO ] 20 Mar 2024 03:56:40 [http-nio-8080-exec-1] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:56:50 [http-nio-8080-exec-2] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:56:58 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 26804 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 20 Mar 2024 03:56:58 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 20 Mar 2024 03:56:58 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 20 Mar 2024 03:56:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 20 Mar 2024 03:56:59 [main] LoadData - Initialization Data
+[DEBUG] 20 Mar 2024 03:56:59 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 20 Mar 2024 03:56:59 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.817 seconds (JVM running for 2.568)
+[INFO ] 20 Mar 2024 03:57:04 [http-nio-8080-exec-1] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 03:57:08 [http-nio-8080-exec-2] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 04:00:44 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 1112 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 20 Mar 2024 04:00:44 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 20 Mar 2024 04:00:44 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 20 Mar 2024 04:00:45 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 20 Mar 2024 04:00:45 [main] LoadData - Initialization Data
+[DEBUG] 20 Mar 2024 04:00:45 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 20 Mar 2024 04:00:46 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.944 seconds (JVM running for 2.613)
+[INFO ] 20 Mar 2024 04:00:49 [http-nio-8080-exec-1] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 04:00:51 [http-nio-8080-exec-4] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 20 Mar 2024 04:00:54 [http-nio-8080-exec-2] FireStationController - OK 200 - FireStationNumber GET request
+[ERROR] 20 Mar 2024 04:04:11 [http-nio-8080-exec-9] FireStationController - FAILED 404 - No FireStation founded for number : <firestation_number. Verify the station number entered.
+[INFO ] 20 Mar 2024 04:04:16 [http-nio-8080-exec-3] FireStationController - OK 200 - PhoneAlert GET request
+[INFO ] 20 Mar 2024 04:07:12 [http-nio-8080-exec-7] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 21 Mar 2024 03:27:30 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 24636 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:27:30 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:27:30 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:27:31 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:27:31 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:27:31 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 21 Mar 2024 03:27:32 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 2.477 seconds (JVM running for 3.369)
+[INFO ] 21 Mar 2024 03:27:52 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:27:52 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:27:52 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:27:53 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:27:53 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:27:53 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 21 Mar 2024 03:27:55 [main] TestPersonController - Started TestPersonController in 3.015 seconds (JVM running for 4.344)
+[DEBUG] 21 Mar 2024 03:27:55 [main] PersonController - GET request received for getChildAlert : 1509 Culver St
+[DEBUG] 21 Mar 2024 03:27:55 [main] PersonService - Request ChildAlert
+[INFO ] 21 Mar 2024 03:27:55 [main] PersonController - OK 200 - ChildAlert GET request
+[INFO ] 21 Mar 2024 03:27:56 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:27:56 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:27:56 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:27:56 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:27:56 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:27:56 [main] LoadData - Loaded from Json file : 
+46 persons 
+26 firestations 
+46 medicalrecords
+[INFO ] 21 Mar 2024 03:27:56 [main] TestPersonController - Started TestPersonController in 0.922 seconds (JVM running for 5.896)
+[ERROR] 21 Mar 2024 03:27:57 [main] PersonController - 404 FAILED - Not found : Paris
+[INFO ] 21 Mar 2024 03:27:57 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:27:57 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:27:57 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:27:57 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:27:57 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:27:57 [main] LoadData - Loaded from Json file : 
+69 persons 
+39 firestations 
+69 medicalrecords
+[INFO ] 21 Mar 2024 03:27:57 [main] TestPersonController - Started TestPersonController in 0.797 seconds (JVM running for 6.711)
+[INFO ] 21 Mar 2024 03:27:57 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:27:57 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:27:57 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:27:58 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:27:58 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:27:58 [main] LoadData - Loaded from Json file : 
+92 persons 
+52 firestations 
+92 medicalrecords
+[INFO ] 21 Mar 2024 03:27:58 [main] TestPersonController - Started TestPersonController in 0.623 seconds (JVM running for 7.384)
+[INFO ] 21 Mar 2024 03:27:58 [main] PersonController - OK 201 - Create Person POST request for Nicolas Gros
+[INFO ] 21 Mar 2024 03:27:58 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:27:58 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:27:58 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:27:58 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:27:58 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:27:58 [main] LoadData - Loaded from Json file : 
+115 persons 
+65 firestations 
+115 medicalrecords
+[INFO ] 21 Mar 2024 03:27:59 [main] TestPersonController - Started TestPersonController in 0.608 seconds (JVM running for 8.014)
+[INFO ] 21 Mar 2024 03:27:59 [main] PersonController - OK 200 - CommunityEmail GET request
+[INFO ] 21 Mar 2024 03:27:59 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:27:59 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:27:59 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:27:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:27:59 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:27:59 [main] LoadData - Loaded from Json file : 
+138 persons 
+78 firestations 
+138 medicalrecords
+[INFO ] 21 Mar 2024 03:27:59 [main] TestPersonController - Started TestPersonController in 0.596 seconds (JVM running for 8.68)
+[INFO ] 21 Mar 2024 03:27:59 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:27:59 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:27:59 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:28:00 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:28:00 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:28:00 [main] LoadData - Loaded from Json file : 
+161 persons 
+91 firestations 
+161 medicalrecords
+[INFO ] 21 Mar 2024 03:28:00 [main] TestPersonController - Started TestPersonController in 0.629 seconds (JVM running for 9.336)
+[INFO ] 21 Mar 2024 03:28:00 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:28:00 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:28:00 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:28:00 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:28:00 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:28:00 [main] LoadData - Loaded from Json file : 
+184 persons 
+104 firestations 
+184 medicalrecords
+[INFO ] 21 Mar 2024 03:28:01 [main] TestPersonController - Started TestPersonController in 0.547 seconds (JVM running for 9.902)
+[DEBUG] 21 Mar 2024 03:28:01 [main] PersonController - GET request received for personInfos: Gros
+[DEBUG] 21 Mar 2024 03:28:01 [main] PersonService - Request PersonInfo
+[DEBUG] 21 Mar 2024 03:28:01 [main] PersonService - Request PersonInfo OK
+[ERROR] 21 Mar 2024 03:28:01 [main] PersonController - 404 FAILED - No person found with LastName : Gros
+[INFO ] 21 Mar 2024 03:28:01 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:28:01 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:28:01 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:28:01 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:28:01 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:28:01 [main] LoadData - Loaded from Json file : 
+207 persons 
+117 firestations 
+207 medicalrecords
+[INFO ] 21 Mar 2024 03:28:01 [main] TestPersonController - Started TestPersonController in 0.51 seconds (JVM running for 10.425)
+[ERROR] 21 Mar 2024 03:28:01 [main] PersonService - Error create person : Peter Duncan, person already exist
+[INFO ] 21 Mar 2024 03:28:01 [main] PersonController - FAILED 409 - CONFLICT
+[INFO ] 21 Mar 2024 03:28:01 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:28:01 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:28:01 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:28:01 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:28:01 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:28:01 [main] LoadData - Loaded from Json file : 
+230 persons 
+130 firestations 
+230 medicalrecords
+[INFO ] 21 Mar 2024 03:28:02 [main] TestPersonController - Started TestPersonController in 0.499 seconds (JVM running for 10.935)
+[DEBUG] 21 Mar 2024 03:28:02 [main] PersonController - GET request received for personInfos: Carman
+[DEBUG] 21 Mar 2024 03:28:02 [main] PersonService - Request PersonInfo
+[DEBUG] 21 Mar 2024 03:28:02 [main] PersonService - Request PersonInfo OK
+[INFO ] 21 Mar 2024 03:28:02 [main] PersonController - OK 200 - personInfos GET request
+[INFO ] 21 Mar 2024 03:28:02 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:28:02 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:28:02 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:28:02 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:28:02 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:28:02 [main] LoadData - Loaded from Json file : 
+253 persons 
+143 firestations 
+253 medicalrecords
+[INFO ] 21 Mar 2024 03:28:02 [main] TestPersonController - Started TestPersonController in 0.52 seconds (JVM running for 11.468)
+[DEBUG] 21 Mar 2024 03:28:02 [main] PersonController - GET request received for getChildAlert : 29 15th St
+[DEBUG] 21 Mar 2024 03:28:02 [main] PersonService - Request ChildAlert
+[ERROR] 21 Mar 2024 03:28:02 [main] PersonController - 404 FAILED - No household with child found : 29 15th St
+[INFO ] 21 Mar 2024 03:28:02 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 16188 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:28:02 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:28:02 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:28:02 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:28:02 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:28:02 [main] LoadData - Loaded from Json file : 
+276 persons 
+156 firestations 
+276 medicalrecords
+[INFO ] 21 Mar 2024 03:28:03 [main] TestPersonController - Started TestPersonController in 0.49 seconds (JVM running for 11.969)
+[INFO ] 21 Mar 2024 03:33:58 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:33:58 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:33:58 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:33:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:33:59 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:00 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 21 Mar 2024 03:34:01 [main] TestPersonController - Started TestPersonController in 3.045 seconds (JVM running for 4.492)
+[DEBUG] 21 Mar 2024 03:34:02 [main] PersonController - GET request received for getChildAlert : 1509 Culver St
+[DEBUG] 21 Mar 2024 03:34:02 [main] PersonService - Request ChildAlert
+[INFO ] 21 Mar 2024 03:34:02 [main] PersonController - OK 200 - ChildAlert GET request
+[INFO ] 21 Mar 2024 03:34:02 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:02 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:02 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:02 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:02 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:02 [main] LoadData - Loaded from Json file : 
+46 persons 
+26 firestations 
+46 medicalrecords
+[INFO ] 21 Mar 2024 03:34:03 [main] TestPersonController - Started TestPersonController in 0.956 seconds (JVM running for 6.216)
+[ERROR] 21 Mar 2024 03:34:03 [main] PersonController - 404 FAILED - Not found : Paris
+[INFO ] 21 Mar 2024 03:34:03 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:03 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:03 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:03 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:03 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:03 [main] LoadData - Loaded from Json file : 
+69 persons 
+39 firestations 
+69 medicalrecords
+[INFO ] 21 Mar 2024 03:34:04 [main] TestPersonController - Started TestPersonController in 0.915 seconds (JVM running for 7.147)
+[INFO ] 21 Mar 2024 03:34:04 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:04 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:04 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:04 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:04 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:04 [main] LoadData - Loaded from Json file : 
+92 persons 
+52 firestations 
+92 medicalrecords
+[INFO ] 21 Mar 2024 03:34:04 [main] TestPersonController - Started TestPersonController in 0.623 seconds (JVM running for 7.819)
+[INFO ] 21 Mar 2024 03:34:05 [main] PersonController - OK 201 - Create Person POST request for Nicolas Gros
+[INFO ] 21 Mar 2024 03:34:05 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:05 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:05 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:05 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:05 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:05 [main] LoadData - Loaded from Json file : 
+115 persons 
+65 firestations 
+115 medicalrecords
+[INFO ] 21 Mar 2024 03:34:05 [main] TestPersonController - Started TestPersonController in 0.593 seconds (JVM running for 8.433)
+[INFO ] 21 Mar 2024 03:34:05 [main] PersonController - OK 200 - CommunityEmail GET request
+[INFO ] 21 Mar 2024 03:34:05 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:05 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:05 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:05 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:05 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:05 [main] LoadData - Loaded from Json file : 
+138 persons 
+78 firestations 
+138 medicalrecords
+[INFO ] 21 Mar 2024 03:34:06 [main] TestPersonController - Started TestPersonController in 0.632 seconds (JVM running for 9.114)
+[INFO ] 21 Mar 2024 03:34:06 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:06 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:06 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:06 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:06 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:06 [main] LoadData - Loaded from Json file : 
+161 persons 
+91 firestations 
+161 medicalrecords
+[INFO ] 21 Mar 2024 03:34:06 [main] TestPersonController - Started TestPersonController in 0.54 seconds (JVM running for 9.696)
+[INFO ] 21 Mar 2024 03:34:06 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:06 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:06 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:07 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:07 [main] LoadData - Loaded from Json file : 
+184 persons 
+104 firestations 
+184 medicalrecords
+[INFO ] 21 Mar 2024 03:34:07 [main] TestPersonController - Started TestPersonController in 0.618 seconds (JVM running for 10.338)
+[DEBUG] 21 Mar 2024 03:34:07 [main] PersonController - GET request received for personInfos: Gros
+[DEBUG] 21 Mar 2024 03:34:07 [main] PersonService - Request PersonInfo
+[DEBUG] 21 Mar 2024 03:34:07 [main] PersonService - Request PersonInfo OK
+[ERROR] 21 Mar 2024 03:34:07 [main] PersonController - 404 FAILED - No person found with LastName : Gros
+[INFO ] 21 Mar 2024 03:34:07 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:07 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:07 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:07 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:07 [main] LoadData - Loaded from Json file : 
+207 persons 
+117 firestations 
+207 medicalrecords
+[INFO ] 21 Mar 2024 03:34:08 [main] TestPersonController - Started TestPersonController in 0.522 seconds (JVM running for 10.872)
+[ERROR] 21 Mar 2024 03:34:08 [main] PersonService - Error create person : Peter Duncan, person already exist
+[INFO ] 21 Mar 2024 03:34:08 [main] PersonController - FAILED 409 - CONFLICT
+[INFO ] 21 Mar 2024 03:34:08 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:08 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:08 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:08 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:08 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:08 [main] LoadData - Loaded from Json file : 
+230 persons 
+130 firestations 
+230 medicalrecords
+[INFO ] 21 Mar 2024 03:34:08 [main] TestPersonController - Started TestPersonController in 0.502 seconds (JVM running for 11.383)
+[DEBUG] 21 Mar 2024 03:34:08 [main] PersonController - GET request received for personInfos: Carman
+[DEBUG] 21 Mar 2024 03:34:08 [main] PersonService - Request PersonInfo
+[DEBUG] 21 Mar 2024 03:34:08 [main] PersonService - Request PersonInfo OK
+[INFO ] 21 Mar 2024 03:34:08 [main] PersonController - OK 200 - personInfos GET request
+[INFO ] 21 Mar 2024 03:34:08 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:08 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:08 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:08 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:08 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:08 [main] LoadData - Loaded from Json file : 
+253 persons 
+143 firestations 
+253 medicalrecords
+[INFO ] 21 Mar 2024 03:34:09 [main] TestPersonController - Started TestPersonController in 0.551 seconds (JVM running for 11.951)
+[DEBUG] 21 Mar 2024 03:34:09 [main] PersonController - GET request received for getChildAlert : 29 15th St
+[DEBUG] 21 Mar 2024 03:34:09 [main] PersonService - Request ChildAlert
+[ERROR] 21 Mar 2024 03:34:09 [main] PersonController - 404 FAILED - No household with child found : 29 15th St
+[INFO ] 21 Mar 2024 03:34:09 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 2552 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 21 Mar 2024 03:34:09 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 21 Mar 2024 03:34:09 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 21 Mar 2024 03:34:09 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 21 Mar 2024 03:34:09 [main] LoadData - Initialization Data
+[DEBUG] 21 Mar 2024 03:34:09 [main] LoadData - Loaded from Json file : 
+276 persons 
+156 firestations 
+276 medicalrecords
+[INFO ] 21 Mar 2024 03:34:09 [main] TestPersonController - Started TestPersonController in 0.509 seconds (JVM running for 12.471)
+[INFO ] 03 Apr 2024 01:40:40 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:40 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:40 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:41 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:41 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:41 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 03 Apr 2024 01:40:43 [main] TestPersonController - Started TestPersonController in 2.886 seconds (JVM running for 4.484)
+[DEBUG] 03 Apr 2024 01:40:43 [main] PersonController - GET request received for getChildAlert : 1509 Culver St
+[DEBUG] 03 Apr 2024 01:40:43 [main] PersonService - Request ChildAlert
+[INFO ] 03 Apr 2024 01:40:43 [main] PersonController - OK 200 - ChildAlert GET request
+[INFO ] 03 Apr 2024 01:40:44 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:44 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:44 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:44 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:44 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:44 [main] LoadData - Loaded from Json file : 
+46 persons 
+26 firestations 
+46 medicalrecords
+[INFO ] 03 Apr 2024 01:40:44 [main] TestPersonController - Started TestPersonController in 0.912 seconds (JVM running for 6.037)
+[ERROR] 03 Apr 2024 01:40:44 [main] PersonController - 404 FAILED - Not found : Paris
+[INFO ] 03 Apr 2024 01:40:45 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:45 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:45 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:45 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:45 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:45 [main] LoadData - Loaded from Json file : 
+69 persons 
+39 firestations 
+69 medicalrecords
+[INFO ] 03 Apr 2024 01:40:45 [main] TestPersonController - Started TestPersonController in 0.741 seconds (JVM running for 6.796)
+[INFO ] 03 Apr 2024 01:40:45 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:45 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:45 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:46 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:46 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:46 [main] LoadData - Loaded from Json file : 
+92 persons 
+52 firestations 
+92 medicalrecords
+[INFO ] 03 Apr 2024 01:40:46 [main] TestPersonController - Started TestPersonController in 0.653 seconds (JVM running for 7.534)
+[INFO ] 03 Apr 2024 01:40:46 [main] PersonController - OK 201 - Create Person POST request for Nicolas Gros
+[INFO ] 03 Apr 2024 01:40:46 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:46 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:46 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:46 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:46 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:46 [main] LoadData - Loaded from Json file : 
+115 persons 
+65 firestations 
+115 medicalrecords
+[INFO ] 03 Apr 2024 01:40:47 [main] TestPersonController - Started TestPersonController in 0.582 seconds (JVM running for 8.159)
+[INFO ] 03 Apr 2024 01:40:47 [main] PersonController - OK 200 - CommunityEmail GET request
+[INFO ] 03 Apr 2024 01:40:47 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:47 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:47 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:47 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:47 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:47 [main] LoadData - Loaded from Json file : 
+138 persons 
+78 firestations 
+138 medicalrecords
+[INFO ] 03 Apr 2024 01:40:47 [main] TestPersonController - Started TestPersonController in 0.582 seconds (JVM running for 8.801)
+[INFO ] 03 Apr 2024 01:40:47 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:47 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:47 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:47 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:47 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:47 [main] LoadData - Loaded from Json file : 
+161 persons 
+91 firestations 
+161 medicalrecords
+[INFO ] 03 Apr 2024 01:40:48 [main] TestPersonController - Started TestPersonController in 0.571 seconds (JVM running for 9.396)
+[INFO ] 03 Apr 2024 01:40:48 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:48 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:48 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:48 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:48 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:48 [main] LoadData - Loaded from Json file : 
+184 persons 
+104 firestations 
+184 medicalrecords
+[INFO ] 03 Apr 2024 01:40:48 [main] TestPersonController - Started TestPersonController in 0.495 seconds (JVM running for 9.913)
+[DEBUG] 03 Apr 2024 01:40:48 [main] PersonController - GET request received for personInfos: Gros
+[DEBUG] 03 Apr 2024 01:40:48 [main] PersonService - Request PersonInfo
+[DEBUG] 03 Apr 2024 01:40:48 [main] PersonService - Request PersonInfo OK
+[ERROR] 03 Apr 2024 01:40:48 [main] PersonController - 404 FAILED - No person found with LastName : Gros
+[INFO ] 03 Apr 2024 01:40:48 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:48 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:48 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:49 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:49 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:49 [main] LoadData - Loaded from Json file : 
+207 persons 
+117 firestations 
+207 medicalrecords
+[INFO ] 03 Apr 2024 01:40:49 [main] TestPersonController - Started TestPersonController in 0.462 seconds (JVM running for 10.386)
+[INFO ] 03 Apr 2024 01:40:49 [main] PersonController - OK 201 - Create Person POST request for Raj Kumar
+[INFO ] 03 Apr 2024 01:40:49 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:49 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:49 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:49 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:49 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:49 [main] LoadData - Loaded from Json file : 
+230 persons 
+130 firestations 
+230 medicalrecords
+[INFO ] 03 Apr 2024 01:40:49 [main] TestPersonController - Started TestPersonController in 0.443 seconds (JVM running for 10.841)
+[DEBUG] 03 Apr 2024 01:40:49 [main] PersonController - GET request received for personInfos: Carman
+[DEBUG] 03 Apr 2024 01:40:49 [main] PersonService - Request PersonInfo
+[DEBUG] 03 Apr 2024 01:40:49 [main] PersonService - Request PersonInfo OK
+[INFO ] 03 Apr 2024 01:40:49 [main] PersonController - OK 200 - personInfos GET request
+[INFO ] 03 Apr 2024 01:40:49 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:49 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:49 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:49 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:49 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:49 [main] LoadData - Loaded from Json file : 
+253 persons 
+143 firestations 
+253 medicalrecords
+[INFO ] 03 Apr 2024 01:40:50 [main] TestPersonController - Started TestPersonController in 0.483 seconds (JVM running for 11.34)
+[DEBUG] 03 Apr 2024 01:40:50 [main] PersonController - GET request received for getChildAlert : 29 15th St
+[DEBUG] 03 Apr 2024 01:40:50 [main] PersonService - Request ChildAlert
+[ERROR] 03 Apr 2024 01:40:50 [main] PersonController - 404 FAILED - No household with child found : 29 15th St
+[INFO ] 03 Apr 2024 01:40:50 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 13392 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:40:50 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:40:50 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:40:50 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:40:50 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:40:50 [main] LoadData - Loaded from Json file : 
+276 persons 
+156 firestations 
+276 medicalrecords
+[INFO ] 03 Apr 2024 01:40:50 [main] TestPersonController - Started TestPersonController in 0.499 seconds (JVM running for 11.848)
+[INFO ] 03 Apr 2024 01:43:53 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:43:53 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:43:53 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:43:54 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:43:54 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:43:54 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 03 Apr 2024 01:43:55 [main] TestPersonController - Started TestPersonController in 2.767 seconds (JVM running for 4.062)
+[DEBUG] 03 Apr 2024 01:43:56 [main] PersonController - GET request received for getChildAlert : 1509 Culver St
+[DEBUG] 03 Apr 2024 01:43:56 [main] PersonService - Request ChildAlert
+[INFO ] 03 Apr 2024 01:43:56 [main] PersonController - OK 200 - ChildAlert GET request
+[INFO ] 03 Apr 2024 01:43:56 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:43:56 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:43:56 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:43:56 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:43:56 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:43:56 [main] LoadData - Loaded from Json file : 
+46 persons 
+26 firestations 
+46 medicalrecords
+[INFO ] 03 Apr 2024 01:43:56 [main] TestPersonController - Started TestPersonController in 0.74 seconds (JVM running for 5.264)
+[ERROR] 03 Apr 2024 01:43:57 [main] PersonController - 404 FAILED - Not found : Paris
+[INFO ] 03 Apr 2024 01:43:57 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:43:57 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:43:57 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:43:57 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:43:57 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:43:57 [main] LoadData - Loaded from Json file : 
+69 persons 
+39 firestations 
+69 medicalrecords
+[INFO ] 03 Apr 2024 01:43:57 [main] TestPersonController - Started TestPersonController in 0.65 seconds (JVM running for 5.929)
+[INFO ] 03 Apr 2024 01:43:57 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:43:57 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:43:57 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:43:57 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:43:57 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:43:57 [main] LoadData - Loaded from Json file : 
+92 persons 
+52 firestations 
+92 medicalrecords
+[INFO ] 03 Apr 2024 01:43:58 [main] TestPersonController - Started TestPersonController in 0.592 seconds (JVM running for 6.562)
+[INFO ] 03 Apr 2024 01:43:58 [main] PersonController - OK 201 - Create Person POST request for Nicolas Gros
+[INFO ] 03 Apr 2024 01:43:58 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:43:58 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:43:58 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:43:58 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:43:58 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:43:58 [main] LoadData - Loaded from Json file : 
+115 persons 
+65 firestations 
+115 medicalrecords
+[INFO ] 03 Apr 2024 01:43:58 [main] TestPersonController - Started TestPersonController in 0.526 seconds (JVM running for 7.108)
+[INFO ] 03 Apr 2024 01:43:58 [main] PersonController - OK 200 - CommunityEmail GET request
+[INFO ] 03 Apr 2024 01:43:58 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:43:58 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:43:58 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:43:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:43:59 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:43:59 [main] LoadData - Loaded from Json file : 
+138 persons 
+78 firestations 
+138 medicalrecords
+[INFO ] 03 Apr 2024 01:43:59 [main] TestPersonController - Started TestPersonController in 0.567 seconds (JVM running for 7.709)
+[INFO ] 03 Apr 2024 01:43:59 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:43:59 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:43:59 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:43:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:43:59 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:43:59 [main] LoadData - Loaded from Json file : 
+161 persons 
+91 firestations 
+161 medicalrecords
+[INFO ] 03 Apr 2024 01:43:59 [main] TestPersonController - Started TestPersonController in 0.535 seconds (JVM running for 8.256)
+[INFO ] 03 Apr 2024 01:44:00 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:44:00 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:44:00 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:44:00 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:44:00 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:44:00 [main] LoadData - Loaded from Json file : 
+184 persons 
+104 firestations 
+184 medicalrecords
+[INFO ] 03 Apr 2024 01:44:00 [main] TestPersonController - Started TestPersonController in 0.525 seconds (JVM running for 8.798)
+[DEBUG] 03 Apr 2024 01:44:00 [main] PersonController - GET request received for personInfos: Gros
+[DEBUG] 03 Apr 2024 01:44:00 [main] PersonService - Request PersonInfo
+[DEBUG] 03 Apr 2024 01:44:00 [main] PersonService - Request PersonInfo OK
+[ERROR] 03 Apr 2024 01:44:00 [main] PersonController - 404 FAILED - No person found with LastName : Gros
+[INFO ] 03 Apr 2024 01:44:00 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:44:00 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:44:00 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:44:00 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:44:00 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:44:00 [main] LoadData - Loaded from Json file : 
+207 persons 
+117 firestations 
+207 medicalrecords
+[INFO ] 03 Apr 2024 01:44:01 [main] TestPersonController - Started TestPersonController in 0.459 seconds (JVM running for 9.275)
+[INFO ] 03 Apr 2024 01:44:01 [main] PersonController - OK 201 - Create Person POST request for Raj Kumar
+[INFO ] 03 Apr 2024 01:44:01 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:44:01 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:44:01 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:44:01 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:44:01 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:44:01 [main] LoadData - Loaded from Json file : 
+230 persons 
+130 firestations 
+230 medicalrecords
+[INFO ] 03 Apr 2024 01:44:01 [main] TestPersonController - Started TestPersonController in 0.468 seconds (JVM running for 9.752)
+[DEBUG] 03 Apr 2024 01:44:01 [main] PersonController - GET request received for personInfos: Carman
+[DEBUG] 03 Apr 2024 01:44:01 [main] PersonService - Request PersonInfo
+[DEBUG] 03 Apr 2024 01:44:01 [main] PersonService - Request PersonInfo OK
+[INFO ] 03 Apr 2024 01:44:01 [main] PersonController - OK 200 - personInfos GET request
+[INFO ] 03 Apr 2024 01:44:01 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:44:01 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:44:01 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:44:01 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:44:01 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:44:01 [main] LoadData - Loaded from Json file : 
+253 persons 
+143 firestations 
+253 medicalrecords
+[INFO ] 03 Apr 2024 01:44:01 [main] TestPersonController - Started TestPersonController in 0.475 seconds (JVM running for 10.242)
+[DEBUG] 03 Apr 2024 01:44:01 [main] PersonController - GET request received for getChildAlert : 29 15th St
+[DEBUG] 03 Apr 2024 01:44:01 [main] PersonService - Request ChildAlert
+[ERROR] 03 Apr 2024 01:44:01 [main] PersonController - 404 FAILED - No household with child found : 29 15th St
+[INFO ] 03 Apr 2024 01:44:02 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24632 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:44:02 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:44:02 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:44:02 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:44:02 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:44:02 [main] LoadData - Loaded from Json file : 
+276 persons 
+156 firestations 
+276 medicalrecords
+[INFO ] 03 Apr 2024 01:44:02 [main] TestPersonController - Started TestPersonController in 0.487 seconds (JVM running for 10.739)
+[INFO ] 03 Apr 2024 01:55:25 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:25 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:25 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:26 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:26 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:26 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 03 Apr 2024 01:55:28 [main] TestPersonController - Started TestPersonController in 2.811 seconds (JVM running for 4.15)
+[DEBUG] 03 Apr 2024 01:55:28 [main] PersonController - GET request received for getChildAlert : 1509 Culver St
+[DEBUG] 03 Apr 2024 01:55:28 [main] PersonService - Request ChildAlert
+[INFO ] 03 Apr 2024 01:55:28 [main] PersonController - OK 200 - ChildAlert GET request
+[INFO ] 03 Apr 2024 01:55:28 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:28 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:28 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:28 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:28 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:28 [main] LoadData - Loaded from Json file : 
+46 persons 
+26 firestations 
+46 medicalrecords
+[INFO ] 03 Apr 2024 01:55:29 [main] TestPersonController - Started TestPersonController in 1.007 seconds (JVM running for 5.806)
+[INFO ] 03 Apr 2024 01:55:29 [main] PersonController - OK 201 - Create Person POST request for Raj Kumar
+[INFO ] 03 Apr 2024 01:55:29 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:29 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:29 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:29 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:29 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:29 [main] LoadData - Loaded from Json file : 
+69 persons 
+39 firestations 
+69 medicalrecords
+[INFO ] 03 Apr 2024 01:55:30 [main] TestPersonController - Started TestPersonController in 0.944 seconds (JVM running for 6.808)
+[ERROR] 03 Apr 2024 01:55:30 [main] PersonController - 404 FAILED - Not found : Test
+[INFO ] 03 Apr 2024 01:55:30 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:30 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:30 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:30 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:30 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:30 [main] LoadData - Loaded from Json file : 
+92 persons 
+52 firestations 
+92 medicalrecords
+[INFO ] 03 Apr 2024 01:55:31 [main] TestPersonController - Started TestPersonController in 0.998 seconds (JVM running for 7.819)
+[INFO ] 03 Apr 2024 01:55:31 [main] PersonController - OK 200 - CommunityEmail GET request
+[INFO ] 03 Apr 2024 01:55:31 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:31 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:31 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:31 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:31 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:32 [main] LoadData - Loaded from Json file : 
+115 persons 
+65 firestations 
+115 medicalrecords
+[INFO ] 03 Apr 2024 01:55:32 [main] TestPersonController - Started TestPersonController in 0.841 seconds (JVM running for 8.729)
+[INFO ] 03 Apr 2024 01:55:32 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:32 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:32 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:32 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:32 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:32 [main] LoadData - Loaded from Json file : 
+138 persons 
+78 firestations 
+138 medicalrecords
+[INFO ] 03 Apr 2024 01:55:33 [main] TestPersonController - Started TestPersonController in 0.79 seconds (JVM running for 9.559)
+[DEBUG] 03 Apr 2024 01:55:33 [main] PersonController - GET request received for personInfos: Gros
+[DEBUG] 03 Apr 2024 01:55:33 [main] PersonService - Request PersonInfo
+[DEBUG] 03 Apr 2024 01:55:33 [main] PersonService - Request PersonInfo OK
+[ERROR] 03 Apr 2024 01:55:33 [main] PersonController - 404 FAILED - No person found with LastName : Gros
+[INFO ] 03 Apr 2024 01:55:33 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:33 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:33 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:33 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:33 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:33 [main] LoadData - Loaded from Json file : 
+161 persons 
+91 firestations 
+161 medicalrecords
+[INFO ] 03 Apr 2024 01:55:34 [main] TestPersonController - Started TestPersonController in 0.782 seconds (JVM running for 10.365)
+[INFO ] 03 Apr 2024 01:55:34 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:34 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:34 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:34 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:34 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:34 [main] LoadData - Loaded from Json file : 
+184 persons 
+104 firestations 
+184 medicalrecords
+[INFO ] 03 Apr 2024 01:55:34 [main] TestPersonController - Started TestPersonController in 0.492 seconds (JVM running for 10.871)
+[DEBUG] 03 Apr 2024 01:55:34 [main] PersonController - GET request received for personInfos: Carman
+[DEBUG] 03 Apr 2024 01:55:34 [main] PersonService - Request PersonInfo
+[DEBUG] 03 Apr 2024 01:55:34 [main] PersonService - Request PersonInfo OK
+[INFO ] 03 Apr 2024 01:55:34 [main] PersonController - OK 200 - personInfos GET request
+[INFO ] 03 Apr 2024 01:55:34 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:34 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:34 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:34 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:34 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:34 [main] LoadData - Loaded from Json file : 
+207 persons 
+117 firestations 
+207 medicalrecords
+[INFO ] 03 Apr 2024 01:55:35 [main] TestPersonController - Started TestPersonController in 0.456 seconds (JVM running for 11.342)
+[DEBUG] 03 Apr 2024 01:55:35 [main] PersonController - GET request received for getChildAlert : 29 15th St
+[DEBUG] 03 Apr 2024 01:55:35 [main] PersonService - Request ChildAlert
+[ERROR] 03 Apr 2024 01:55:35 [main] PersonController - 404 FAILED - No household with child found : 29 15th St
+[INFO ] 03 Apr 2024 01:55:35 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:35 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:35 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:35 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:35 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:35 [main] LoadData - Loaded from Json file : 
+230 persons 
+130 firestations 
+230 medicalrecords
+[INFO ] 03 Apr 2024 01:55:35 [main] TestPersonController - Started TestPersonController in 0.467 seconds (JVM running for 11.821)
+[INFO ] 03 Apr 2024 01:55:35 [main] PersonController - OK 201 - Create Person POST request for Raj Kumar
+[INFO ] 03 Apr 2024 01:55:35 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:35 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:35 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:35 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:35 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:35 [main] LoadData - Loaded from Json file : 
+253 persons 
+143 firestations 
+253 medicalrecords
+[INFO ] 03 Apr 2024 01:55:36 [main] TestPersonController - Started TestPersonController in 0.498 seconds (JVM running for 12.331)
+[INFO ] 03 Apr 2024 01:55:36 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 24628 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 03 Apr 2024 01:55:36 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 03 Apr 2024 01:55:36 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 03 Apr 2024 01:55:36 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 03 Apr 2024 01:55:36 [main] LoadData - Initialization Data
+[DEBUG] 03 Apr 2024 01:55:36 [main] LoadData - Loaded from Json file : 
+276 persons 
+156 firestations 
+276 medicalrecords
+[INFO ] 03 Apr 2024 01:55:36 [main] TestPersonController - Started TestPersonController in 0.52 seconds (JVM running for 12.864)
+[INFO ] 09 Apr 2024 01:08:42 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 13708 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 01:08:42 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 01:08:42 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 01:08:44 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 01:08:44 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 01:08:44 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 09 Apr 2024 01:08:45 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 3.157 seconds (JVM running for 4.11)
+[ERROR] 09 Apr 2024 01:08:50 [http-nio-8080-exec-2] FireStationController - FAILED - No address for : <address.
+[INFO ] 09 Apr 2024 01:09:27 [http-nio-8080-exec-4] FireStationController - SUCCESS - Fire GET request
+[ERROR] 09 Apr 2024 01:10:26 [http-nio-8080-exec-8] FireStationService - No station found <a
+[ERROR] 09 Apr 2024 01:10:26 [http-nio-8080-exec-8] FireStationController - FAILED 404 - Flood GET request
+[ERROR] 09 Apr 2024 01:10:36 [http-nio-8080-exec-3] FireStationService - No station found <a
+[ERROR] 09 Apr 2024 01:10:36 [http-nio-8080-exec-3] FireStationController - FAILED 404 - Flood GET request
+[INFO ] 09 Apr 2024 01:10:40 [http-nio-8080-exec-6] FireStationController - OK 200 - Flood GET request
+[INFO ] 09 Apr 2024 01:11:19 [http-nio-8080-exec-5] FireStationController - OK 200 - Flood GET request
+[DEBUG] 09 Apr 2024 01:11:49 [http-nio-8080-exec-9] PersonController - GET request received for personInfos: <lastName
+[DEBUG] 09 Apr 2024 01:11:49 [http-nio-8080-exec-9] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 01:11:49 [http-nio-8080-exec-9] PersonService - Request PersonInfo OK
+[ERROR] 09 Apr 2024 01:11:49 [http-nio-8080-exec-9] PersonController - 404 FAILED - No person found with LastName : <lastName
+[DEBUG] 09 Apr 2024 01:12:00 [http-nio-8080-exec-10] PersonController - GET request received for personInfos: <lastName
+[DEBUG] 09 Apr 2024 01:12:00 [http-nio-8080-exec-10] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 01:12:00 [http-nio-8080-exec-10] PersonService - Request PersonInfo OK
+[ERROR] 09 Apr 2024 01:12:00 [http-nio-8080-exec-10] PersonController - 404 FAILED - No person found with LastName : <lastName
+[DEBUG] 09 Apr 2024 01:13:04 [http-nio-8080-exec-8] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 09 Apr 2024 01:13:04 [http-nio-8080-exec-8] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 01:13:04 [http-nio-8080-exec-8] PersonService - Request PersonInfo OK
+[INFO ] 09 Apr 2024 01:13:04 [http-nio-8080-exec-8] PersonController - OK 200 - personInfos GET request
+[ERROR] 09 Apr 2024 01:14:00 [http-nio-8080-exec-3] PersonController - 404 FAILED - Not found : <city
+[INFO ] 09 Apr 2024 01:14:31 [http-nio-8080-exec-7] PersonController - OK 200 - CommunityEmail GET request
+[ERROR] 09 Apr 2024 01:14:38 [http-nio-8080-exec-9] PersonController - 404 FAILED - Not found : culver
+[INFO ] 09 Apr 2024 01:14:43 [http-nio-8080-exec-10] PersonController - OK 200 - CommunityEmail GET request
+[INFO ] 09 Apr 2024 01:22:26 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 1760 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 01:22:26 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 01:22:26 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 01:22:27 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 01:22:27 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 01:22:27 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 09 Apr 2024 01:22:28 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.913 seconds (JVM running for 2.599)
+[INFO ] 09 Apr 2024 01:22:35 [http-nio-8080-exec-1] FireStationController - OK 200 - /flood/stations[1]
+[INFO ] 09 Apr 2024 01:22:50 [http-nio-8080-exec-4] FireStationController - OK 200 - /flood/stations[3]
+[ERROR] 09 Apr 2024 01:23:42 [http-nio-8080-exec-2] FireStationService - No station found 00
+[ERROR] 09 Apr 2024 01:23:42 [http-nio-8080-exec-2] FireStationController - FAILED 404 - /flood/stations?stations=[00]
+[INFO ] 09 Apr 2024 01:23:49 [http-nio-8080-exec-5] FireStationController - OK 200 - /flood/stations[1]
+[ERROR] 09 Apr 2024 01:23:57 [http-nio-8080-exec-6] FireStationService - No station found 99
+[ERROR] 09 Apr 2024 01:23:57 [http-nio-8080-exec-6] FireStationController - FAILED 404 - /flood/stations?stations=[99]
+[ERROR] 09 Apr 2024 01:26:39 [http-nio-8080-exec-9] FireStationController - FAILED - No address for : <address.
+[INFO ] 09 Apr 2024 01:28:09 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 23084 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 01:28:09 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 01:28:09 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 01:28:10 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 01:28:10 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 01:28:10 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 09 Apr 2024 01:28:11 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 2.344 seconds (JVM running for 3.072)
+[INFO ] 09 Apr 2024 01:28:33 [http-nio-8080-exec-1] FireStationController - OK 200 - /flood/stations?stations=[1]
+[ERROR] 09 Apr 2024 01:28:53 [http-nio-8080-exec-2] FireStationController - FAILED 200 - fire?address={}.<address
+[INFO ] 09 Apr 2024 01:29:04 [http-nio-8080-exec-3] FireStationController - OK 200 - fire?address={}.1509 Culver St
+[ERROR] 09 Apr 2024 01:30:39 [http-nio-8080-exec-6] FireStationController - FAILED 404 - No FireStation founded for number : <firestation_number. Verify the station number entered.
+[INFO ] 09 Apr 2024 01:30:53 [http-nio-8080-exec-9] FireStationController - OK 200 - PhoneAlert GET request
+[ERROR] 09 Apr 2024 01:38:47 [http-nio-8080-exec-2] FireStationController - FAILED 404 - No FireStation found : <station_number. Check the station number
+[INFO ] 09 Apr 2024 01:39:00 [http-nio-8080-exec-3] FireStationController - OK 200 - FireStationNumber GET request
+[ERROR] 09 Apr 2024 01:39:34 [http-nio-8080-exec-4] FireStationController - FAILED 404 - No FireStation found : 8. Check the station number
+[ERROR] 09 Apr 2024 01:39:40 [http-nio-8080-exec-5] FireStationController - FAILED 404 - No FireStation found : 00. Check the station number
+[INFO ] 09 Apr 2024 01:41:01 [http-nio-8080-exec-7] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 09 Apr 2024 02:03:56 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:03:56 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:03:56 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:03:57 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:03:57 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:03:57 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 09 Apr 2024 02:03:58 [main] TestMedicalRecordController - Started TestMedicalRecordController in 2.142 seconds (JVM running for 3.425)
+[ERROR] 09 Apr 2024 02:03:58 [main] MedicalRecordController - 404 - FAILED to update MedicalRecord for person: test test. Unknown
+[INFO ] 09 Apr 2024 02:03:58 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:03:58 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:03:58 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:03:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:03:59 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:03:59 [main] LoadData - Loaded from Json file : 
+46 persons 
+26 firestations 
+46 medicalrecords
+[INFO ] 09 Apr 2024 02:03:59 [main] TestMedicalRecordController - Started TestMedicalRecordController in 0.683 seconds (JVM running for 4.515)
+[ERROR] 09 Apr 2024 02:03:59 [main] MedicalRecordController - 404 - FAILED to delete MedicalRecord for : Raj KWho is this person
+[INFO ] 09 Apr 2024 02:03:59 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:03:59 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:03:59 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:03:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:03:59 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:03:59 [main] LoadData - Loaded from Json file : 
+69 persons 
+39 firestations 
+69 medicalrecords
+[INFO ] 09 Apr 2024 02:04:00 [main] TestMedicalRecordController - Started TestMedicalRecordController in 0.628 seconds (JVM running for 5.185)
+[ERROR] 09 Apr 2024 02:04:00 [main] MedicalRecordController - 404 - FAILED to delete MedicalRecord for : test testWho is this person
+[INFO ] 09 Apr 2024 02:04:00 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:00 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:00 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:00 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:00 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:00 [main] LoadData - Loaded from Json file : 
+92 persons 
+52 firestations 
+92 medicalrecords
+[INFO ] 09 Apr 2024 02:04:00 [main] TestMedicalRecordController - Started TestMedicalRecordController in 0.519 seconds (JVM running for 5.713)
+[ERROR] 09 Apr 2024 02:04:00 [main] MedicalRecordController - 404 - FAILED to update MedicalRecord for person: test test. Unknown
+[INFO ] 09 Apr 2024 02:04:00 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:00 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:00 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:00 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:00 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:00 [main] LoadData - Loaded from Json file : 
+115 persons 
+65 firestations 
+115 medicalrecords
+[INFO ] 09 Apr 2024 02:04:01 [main] TestMedicalRecordController - Started TestMedicalRecordController in 0.453 seconds (JVM running for 6.18)
+[ERROR] 09 Apr 2024 02:04:01 [main] MedicalRecordService - Error create the MedicalRecord : Raj K, already existant
+[INFO ] 09 Apr 2024 02:04:01 [main] MedicalRecordController - FAILED 409 - createMedicalRecord POST request
+[INFO ] 09 Apr 2024 02:04:01 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:01 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:01 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:01 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:01 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:01 [main] LoadData - Loaded from Json file : 
+138 persons 
+78 firestations 
+138 medicalrecords
+[INFO ] 09 Apr 2024 02:04:01 [main] TestPersonController - Started TestPersonController in 0.443 seconds (JVM running for 6.637)
+[DEBUG] 09 Apr 2024 02:04:01 [main] PersonController - GET request received for getChildAlert : 1509 Culver St
+[DEBUG] 09 Apr 2024 02:04:01 [main] PersonService - Request ChildAlert
+[INFO ] 09 Apr 2024 02:04:01 [main] PersonController - OK 200 - ChildAlert GET request
+[INFO ] 09 Apr 2024 02:04:01 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:01 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:01 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:01 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:01 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:01 [main] LoadData - Loaded from Json file : 
+161 persons 
+91 firestations 
+161 medicalrecords
+[INFO ] 09 Apr 2024 02:04:02 [main] TestPersonController - Started TestPersonController in 0.453 seconds (JVM running for 7.128)
+[INFO ] 09 Apr 2024 02:04:02 [main] PersonController - OK 201 - Create Person POST request for Raj Kumar
+[INFO ] 09 Apr 2024 02:04:02 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:02 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:02 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:02 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:02 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:02 [main] LoadData - Loaded from Json file : 
+184 persons 
+104 firestations 
+184 medicalrecords
+[INFO ] 09 Apr 2024 02:04:02 [main] TestPersonController - Started TestPersonController in 0.398 seconds (JVM running for 7.535)
+[ERROR] 09 Apr 2024 02:04:02 [main] PersonController - 404 FAILED - Not found : Test
+[INFO ] 09 Apr 2024 02:04:02 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:02 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:02 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:02 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:02 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:02 [main] LoadData - Loaded from Json file : 
+207 persons 
+117 firestations 
+207 medicalrecords
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - Started TestPersonController in 0.404 seconds (JVM running for 7.95)
+[INFO ] 09 Apr 2024 02:04:03 [main] PersonController - OK 200 - CommunityEmail GET request
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:03 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:03 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:03 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:03 [main] LoadData - Loaded from Json file : 
+230 persons 
+130 firestations 
+230 medicalrecords
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - Started TestPersonController in 0.385 seconds (JVM running for 8.369)
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:03 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:03 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:03 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:03 [main] LoadData - Loaded from Json file : 
+253 persons 
+143 firestations 
+253 medicalrecords
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - Started TestPersonController in 0.396 seconds (JVM running for 8.788)
+[DEBUG] 09 Apr 2024 02:04:03 [main] PersonController - GET request received for personInfos: Gros
+[DEBUG] 09 Apr 2024 02:04:03 [main] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:04:03 [main] PersonService - Request PersonInfo OK
+[ERROR] 09 Apr 2024 02:04:03 [main] PersonController - 404 FAILED - No person found with LastName : Gros
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:03 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:03 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:03 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:03 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:03 [main] LoadData - Loaded from Json file : 
+276 persons 
+156 firestations 
+276 medicalrecords
+[INFO ] 09 Apr 2024 02:04:04 [main] TestPersonController - Started TestPersonController in 0.403 seconds (JVM running for 9.198)
+[INFO ] 09 Apr 2024 02:04:04 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:04 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:04 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:04 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:04 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:04 [main] LoadData - Loaded from Json file : 
+299 persons 
+169 firestations 
+299 medicalrecords
+[INFO ] 09 Apr 2024 02:04:04 [main] TestPersonController - Started TestPersonController in 0.379 seconds (JVM running for 9.586)
+[DEBUG] 09 Apr 2024 02:04:04 [main] PersonController - GET request received for personInfos: Carman
+[DEBUG] 09 Apr 2024 02:04:04 [main] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:04:04 [main] PersonService - Request PersonInfo OK
+[INFO ] 09 Apr 2024 02:04:04 [main] PersonController - OK 200 - personInfos GET request
+[INFO ] 09 Apr 2024 02:04:04 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:04 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:04 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:04 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:04 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:04 [main] LoadData - Loaded from Json file : 
+322 persons 
+182 firestations 
+322 medicalrecords
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - Started TestPersonController in 0.381 seconds (JVM running for 9.977)
+[DEBUG] 09 Apr 2024 02:04:05 [main] PersonController - GET request received for getChildAlert : 29 15th St
+[DEBUG] 09 Apr 2024 02:04:05 [main] PersonService - Request ChildAlert
+[ERROR] 09 Apr 2024 02:04:05 [main] PersonController - 404 FAILED - No household with child found : 29 15th St
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:05 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:05 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:05 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:05 [main] LoadData - Loaded from Json file : 
+345 persons 
+195 firestations 
+345 medicalrecords
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - Started TestPersonController in 0.377 seconds (JVM running for 10.361)
+[INFO ] 09 Apr 2024 02:04:05 [main] PersonController - OK 201 - Create Person POST request for Raj Kumar
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:05 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:05 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:05 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:05 [main] LoadData - Loaded from Json file : 
+368 persons 
+208 firestations 
+368 medicalrecords
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - Started TestPersonController in 0.413 seconds (JVM running for 10.782)
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:05 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:05 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:05 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:05 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:05 [main] LoadData - Loaded from Json file : 
+391 persons 
+221 firestations 
+391 medicalrecords
+[INFO ] 09 Apr 2024 02:04:06 [main] TestPersonController - Started TestPersonController in 0.365 seconds (JVM running for 11.157)
+[INFO ] 09 Apr 2024 02:04:06 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:06 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:06 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:06 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:06 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:06 [main] LoadData - Loaded from Json file : 
+414 persons 
+234 firestations 
+414 medicalrecords
+[INFO ] 09 Apr 2024 02:04:06 [main] TestFireStationController - Started TestFireStationController in 0.374 seconds (JVM running for 11.543)
+[ERROR] 09 Apr 2024 02:04:06 [main] FireStationController - FAILED 404 - No FireStation found : 20. Check the station number
+[INFO ] 09 Apr 2024 02:04:06 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:06 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:06 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:06 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:06 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:06 [main] LoadData - Loaded from Json file : 
+437 persons 
+247 firestations 
+437 medicalrecords
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - Started TestFireStationController in 0.389 seconds (JVM running for 11.94)
+[ERROR] 09 Apr 2024 02:04:07 [main] FireStationService - Address entered : Saint Pierre de Soucy City not exist.
+[INFO ] 09 Apr 2024 02:04:07 [main] FireStationController - 404 NOT FOUND - Please verify the address
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:07 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:07 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:07 [main] LoadData - Loaded from Json file : 
+460 persons 
+260 firestations 
+460 medicalrecords
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - Started TestFireStationController in 0.386 seconds (JVM running for 12.332)
+[INFO ] 09 Apr 2024 02:04:07 [main] FireStationController - OK 200 - UpdateFireStation PUT request -  FireStation number : 2, Address : 892 Downing Ct
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:07 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:07 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:07 [main] LoadData - Loaded from Json file : 
+483 persons 
+273 firestations 
+483 medicalrecords
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - Started TestFireStationController in 0.378 seconds (JVM running for 12.717)
+[INFO ] 09 Apr 2024 02:04:07 [main] FireStationController - OK 200 - addAddressForFireStation POST request -  FireStation number : 1, Address : NEW ADDRESS
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:07 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:07 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:07 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:07 [main] LoadData - Loaded from Json file : 
+506 persons 
+286 firestations 
+506 medicalrecords
+[INFO ] 09 Apr 2024 02:04:08 [main] TestFireStationController - Started TestFireStationController in 0.393 seconds (JVM running for 13.117)
+[INFO ] 09 Apr 2024 02:04:08 [main] FireStationController - OK 200 - /flood/stations?stations=[2, 3]
+[INFO ] 09 Apr 2024 02:04:08 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:08 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:08 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:08 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:08 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:08 [main] LoadData - Loaded from Json file : 
+529 persons 
+299 firestations 
+529 medicalrecords
+[INFO ] 09 Apr 2024 02:04:08 [main] TestFireStationController - Started TestFireStationController in 0.427 seconds (JVM running for 13.557)
+[ERROR] 09 Apr 2024 02:04:08 [main] FireStationService - Address enter : [947 E. Rose Dr, 1] already exist 
+[INFO ] 09 Apr 2024 02:04:08 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:08 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:08 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:08 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:08 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:08 [main] LoadData - Loaded from Json file : 
+552 persons 
+312 firestations 
+552 medicalrecords
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - Started TestFireStationController in 0.384 seconds (JVM running for 13.947)
+[INFO ] 09 Apr 2024 02:04:09 [main] FireStationController - OK 200 - DeleteFireStation DELETE request -  Address : 951 LoneTree Rd
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:09 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:09 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:09 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:09 [main] LoadData - Loaded from Json file : 
+575 persons 
+325 firestations 
+575 medicalrecords
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - Started TestFireStationController in 0.351 seconds (JVM running for 14.304)
+[ERROR] 09 Apr 2024 02:04:09 [main] FireStationController - FAILED 404 - No FireStation found : 499. Check the station number
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:09 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:09 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:09 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:09 [main] LoadData - Loaded from Json file : 
+598 persons 
+338 firestations 
+598 medicalrecords
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - Started TestFireStationController in 0.361 seconds (JVM running for 14.672)
+[ERROR] 09 Apr 2024 02:04:09 [main] FireStationController - FAILED 200 - /fire?address=INCONNU
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:09 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:09 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:09 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:09 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:09 [main] LoadData - Loaded from Json file : 
+621 persons 
+351 firestations 
+621 medicalrecords
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - Started TestFireStationController in 0.353 seconds (JVM running for 15.031)
+[INFO ] 09 Apr 2024 02:04:10 [main] FireStationController - OK 200 - /phoneAlert?firestation=1
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:10 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:10 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:10 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:10 [main] LoadData - Loaded from Json file : 
+644 persons 
+364 firestations 
+644 medicalrecords
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - Started TestFireStationController in 0.354 seconds (JVM running for 15.392)
+[ERROR] 09 Apr 2024 02:04:10 [main] FireStationService - No station found 33
+[ERROR] 09 Apr 2024 02:04:10 [main] FireStationController - FAILED 404 - /flood/stations?stations=[33]
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:10 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:10 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:10 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:10 [main] LoadData - Loaded from Json file : 
+667 persons 
+377 firestations 
+667 medicalrecords
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - Started TestFireStationController in 0.367 seconds (JVM running for 15.765)
+[INFO ] 09 Apr 2024 02:04:10 [main] FireStationController - OK 200 - /fire?address=951 LoneTree Rd
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:10 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:10 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:10 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:10 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:10 [main] LoadData - Loaded from Json file : 
+690 persons 
+390 firestations 
+690 medicalrecords
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - Started TestFireStationController in 0.355 seconds (JVM running for 16.127)
+[ERROR] 09 Apr 2024 02:04:11 [main] FireStationService - Address enter : [892 Downing Ct, 2] already exist 
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:11 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:11 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:11 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:11 [main] LoadData - Loaded from Json file : 
+713 persons 
+403 firestations 
+713 medicalrecords
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - Started TestFireStationController in 0.357 seconds (JVM running for 16.49)
+[ERROR] 09 Apr 2024 02:04:11 [main] FireStationService - Address enter : [748 Townings Dr, 3] already exist 
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:11 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:11 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:11 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:11 [main] LoadData - Loaded from Json file : 
+736 persons 
+416 firestations 
+736 medicalrecords
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - Started TestFireStationController in 0.354 seconds (JVM running for 16.851)
+[ERROR] 09 Apr 2024 02:04:11 [main] FireStationService - Address enter : [489 Manchester St, 4] already exist 
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:11 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:11 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:12 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:12 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:12 [main] LoadData - Loaded from Json file : 
+759 persons 
+429 firestations 
+759 medicalrecords
+[INFO ] 09 Apr 2024 02:04:12 [main] TestFireStationController - Started TestFireStationController in 0.356 seconds (JVM running for 17.213)
+[ERROR] 09 Apr 2024 02:04:12 [main] FireStationService - Address enter : [Unknown address, 1] does not exist.
+[INFO ] 09 Apr 2024 02:04:12 [main] TestFireStationService - Starting TestFireStationService on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:12 [main] TestFireStationService - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:12 [main] TestFireStationService - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:12 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:12 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:12 [main] LoadData - Loaded from Json file : 
+782 persons 
+442 firestations 
+782 medicalrecords
+[INFO ] 09 Apr 2024 02:04:12 [main] TestFireStationService - Started TestFireStationService in 0.223 seconds (JVM running for 17.585)
+[ERROR] 09 Apr 2024 02:04:12 [main] FireStationService - Address enter : [908 73rd St, 2] already exist 
+[INFO ] 09 Apr 2024 02:04:12 [main] PersonServiceTest - Starting PersonServiceTest on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:12 [main] PersonServiceTest - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:12 [main] PersonServiceTest - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:12 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:12 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:12 [main] LoadData - Loaded from Json file : 
+805 persons 
+455 firestations 
+805 medicalrecords
+[INFO ] 09 Apr 2024 02:04:12 [main] PersonServiceTest - Started PersonServiceTest in 0.203 seconds (JVM running for 17.852)
+[DEBUG] 09 Apr 2024 02:04:12 [main] PersonService - Request ChildAlert
+[DEBUG] 09 Apr 2024 02:04:12 [main] PersonService - Request ChildAlert
+[DEBUG] 09 Apr 2024 02:04:12 [main] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:04:12 [main] PersonService - Request PersonInfo OK
+[DEBUG] 09 Apr 2024 02:04:12 [main] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:04:12 [main] PersonService - Request PersonInfo OK
+[ERROR] 09 Apr 2024 02:04:12 [main] PersonService - Error create person : John Boyd, person already exist
+[DEBUG] 09 Apr 2024 02:04:12 [main] PersonService - Request ChildAlert
+[INFO ] 09 Apr 2024 02:04:13 [main] TestMedicalRecordService - Starting TestMedicalRecordService on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:13 [main] TestMedicalRecordService - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:13 [main] TestMedicalRecordService - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:13 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Loaded from Json file : 
+828 persons 
+468 firestations 
+828 medicalrecords
+[INFO ] 09 Apr 2024 02:04:13 [main] TestMedicalRecordService - Started TestMedicalRecordService in 0.204 seconds (JVM running for 18.125)
+[ERROR] 09 Apr 2024 02:04:13 [main] MedicalRecordService - Error create the MedicalRecord : Nicolas Gros, already existant
+[ERROR] 09 Apr 2024 02:04:13 [main] MedicalRecordService - Error create the MedicalRecord : John Boyd, already existant
+[ERROR] 09 Apr 2024 02:04:13 [main] AgeCalculator - Invalid Birthday
+[DEBUG] 09 Apr 2024 02:04:13 [main] AgeCalculator - Infant
+[ERROR] 09 Apr 2024 02:04:13 [main] AgeCalculator - Invalid Birthday
+[ERROR] 09 Apr 2024 02:04:13 [main] AgeCalculator - Invalid Birthday
+[INFO ] 09 Apr 2024 02:04:13 [main] TestDataLoader - Starting TestDataLoader on DESKTOP-963T2F1 with PID 33692 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:04:13 [main] TestDataLoader - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:04:13 [main] TestDataLoader - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:04:13 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Loaded from Json file : 
+851 persons 
+481 firestations 
+851 medicalrecords
+[INFO ] 09 Apr 2024 02:04:13 [main] TestDataLoader - Started TestDataLoader in 0.324 seconds (JVM running for 18.509)
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Loaded from Json file : 
+874 persons 
+494 firestations 
+874 medicalrecords
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Loaded from Json file : 
+897 persons 
+507 firestations 
+897 medicalrecords
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Loaded from Json file : 
+920 persons 
+520 firestations 
+920 medicalrecords
+[DEBUG] 09 Apr 2024 02:04:13 [main] LoadData - Initialization Data
+[INFO ] 09 Apr 2024 02:06:14 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 23036 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:06:14 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:06:14 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:06:14 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:06:14 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:06:15 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 09 Apr 2024 02:06:15 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.654 seconds (JVM running for 2.246)
+[INFO ] 09 Apr 2024 02:06:22 [http-nio-8080-exec-1] FireStationController - OK 200 - FireStationNumber GET request
+[INFO ] 09 Apr 2024 02:18:28 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 32356 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:18:28 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:18:28 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 09 Apr 2024 02:29:43 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication using Java 17.0.10 with PID 10828 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:29:43 [main] SafetyNetAlertsApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+[INFO ] 09 Apr 2024 02:29:43 [main] SafetyNetAlertsApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 09 Apr 2024 02:34:53 [main] PersonServiceTest - Starting PersonServiceTest on DESKTOP-963T2F1 with PID 33796 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:34:53 [main] PersonServiceTest - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:34:53 [main] PersonServiceTest - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:34:54 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:34:54 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:34:54 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 09 Apr 2024 02:34:55 [main] PersonServiceTest - Started PersonServiceTest in 2.238 seconds (JVM running for 4.378)
+[DEBUG] 09 Apr 2024 02:34:55 [main] PersonService - Request ChildAlert
+[DEBUG] 09 Apr 2024 02:34:55 [main] PersonService - Request ChildAlert
+[DEBUG] 09 Apr 2024 02:34:55 [main] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:34:55 [main] PersonService - Request PersonInfo OK
+[DEBUG] 09 Apr 2024 02:34:55 [main] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:34:55 [main] PersonService - Request PersonInfo OK
+[ERROR] 09 Apr 2024 02:34:55 [main] PersonService - Error create person : John Boyd, person already exist
+[DEBUG] 09 Apr 2024 02:34:55 [main] PersonService - Request ChildAlert
+[INFO ] 09 Apr 2024 02:35:06 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 30352 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:35:06 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:35:06 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:35:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:35:07 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:35:07 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 09 Apr 2024 02:35:08 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 1.707 seconds (JVM running for 2.316)
+[DEBUG] 09 Apr 2024 02:35:15 [http-nio-8080-exec-2] PersonController - GET request received for personInfos: Boyd
+[DEBUG] 09 Apr 2024 02:35:15 [http-nio-8080-exec-2] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:35:15 [http-nio-8080-exec-2] PersonService - Request PersonInfo OK
+[INFO ] 09 Apr 2024 02:35:15 [http-nio-8080-exec-2] PersonController - OK 200 - personInfos GET request
+[INFO ] 09 Apr 2024 02:35:19 [http-nio-8080-exec-1] FireStationController - OK 200 - /flood/stations?stations=[2]
+[INFO ] 09 Apr 2024 02:37:38 [main] PersonServiceTest - Starting PersonServiceTest on DESKTOP-963T2F1 with PID 20108 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 09 Apr 2024 02:37:38 [main] PersonServiceTest - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 09 Apr 2024 02:37:38 [main] PersonServiceTest - No active profile set, falling back to default profiles: default
+[DEBUG] 09 Apr 2024 02:37:40 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 09 Apr 2024 02:37:40 [main] LoadData - Initialization Data
+[DEBUG] 09 Apr 2024 02:37:40 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 09 Apr 2024 02:37:41 [main] PersonServiceTest - Started PersonServiceTest in 3.125 seconds (JVM running for 5.237)
+[DEBUG] 09 Apr 2024 02:37:41 [main] PersonService - Request ChildAlert
+[DEBUG] 09 Apr 2024 02:37:41 [main] PersonService - Request ChildAlert
+[DEBUG] 09 Apr 2024 02:37:41 [main] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:37:41 [main] PersonService - Request PersonInfo OK
+[DEBUG] 09 Apr 2024 02:37:41 [main] PersonService - Request PersonInfo
+[DEBUG] 09 Apr 2024 02:37:41 [main] PersonService - Request PersonInfo OK
+[ERROR] 09 Apr 2024 02:37:42 [main] PersonService - Error create person : John Boyd, person already exist
+[DEBUG] 09 Apr 2024 02:37:42 [main] PersonService - Request ChildAlert
+[INFO ] 16 Apr 2024 01:17:48 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:48 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:48 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:49 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:49 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:49 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 16 Apr 2024 01:17:51 [main] TestMedicalRecordController - Started TestMedicalRecordController in 2.979 seconds (JVM running for 4.654)
+[ERROR] 16 Apr 2024 01:17:52 [main] MedicalRecordController - 404 - FAILED to update MedicalRecord for person: test test. Unknown
+[INFO ] 16 Apr 2024 01:17:52 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:52 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:52 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:52 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:52 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:52 [main] LoadData - Loaded from Json file : 
+46 persons 
+26 firestations 
+46 medicalrecords
+[INFO ] 16 Apr 2024 01:17:53 [main] TestMedicalRecordController - Started TestMedicalRecordController in 1.288 seconds (JVM running for 6.734)
+[ERROR] 16 Apr 2024 01:17:53 [main] MedicalRecordController - 404 - FAILED to delete MedicalRecord for : Raj KWho is this person
+[INFO ] 16 Apr 2024 01:17:53 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:53 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:53 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:53 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:53 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:53 [main] LoadData - Loaded from Json file : 
+69 persons 
+39 firestations 
+69 medicalrecords
+[INFO ] 16 Apr 2024 01:17:54 [main] TestMedicalRecordController - Started TestMedicalRecordController in 0.847 seconds (JVM running for 7.625)
+[ERROR] 16 Apr 2024 01:17:54 [main] MedicalRecordController - 404 - FAILED to delete MedicalRecord for : test testWho is this person
+[INFO ] 16 Apr 2024 01:17:54 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:54 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:54 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:54 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:54 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:54 [main] LoadData - Loaded from Json file : 
+92 persons 
+52 firestations 
+92 medicalrecords
+[INFO ] 16 Apr 2024 01:17:55 [main] TestMedicalRecordController - Started TestMedicalRecordController in 0.615 seconds (JVM running for 8.25)
+[ERROR] 16 Apr 2024 01:17:55 [main] MedicalRecordController - 404 - FAILED to update MedicalRecord for person: test test. Unknown
+[INFO ] 16 Apr 2024 01:17:55 [main] TestMedicalRecordController - Starting TestMedicalRecordController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:55 [main] TestMedicalRecordController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:55 [main] TestMedicalRecordController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:55 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:55 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:55 [main] LoadData - Loaded from Json file : 
+115 persons 
+65 firestations 
+115 medicalrecords
+[INFO ] 16 Apr 2024 01:17:55 [main] TestMedicalRecordController - Started TestMedicalRecordController in 0.558 seconds (JVM running for 8.827)
+[ERROR] 16 Apr 2024 01:17:55 [main] MedicalRecordService - Error create the MedicalRecord : Raj K, already existant
+[INFO ] 16 Apr 2024 01:17:55 [main] MedicalRecordController - FAILED 409 - createMedicalRecord POST request
+[INFO ] 16 Apr 2024 01:17:55 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:55 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:55 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:55 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:55 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:55 [main] LoadData - Loaded from Json file : 
+138 persons 
+78 firestations 
+138 medicalrecords
+[INFO ] 16 Apr 2024 01:17:56 [main] TestPersonController - Started TestPersonController in 0.569 seconds (JVM running for 9.412)
+[DEBUG] 16 Apr 2024 01:17:56 [main] PersonController - GET request received for getChildAlert : 1509 Culver St
+[DEBUG] 16 Apr 2024 01:17:56 [main] PersonService - Request ChildAlert
+[INFO ] 16 Apr 2024 01:17:56 [main] PersonController - OK 200 - ChildAlert GET request
+[INFO ] 16 Apr 2024 01:17:56 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:56 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:56 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:56 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:56 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:56 [main] LoadData - Loaded from Json file : 
+161 persons 
+91 firestations 
+161 medicalrecords
+[INFO ] 16 Apr 2024 01:17:56 [main] TestPersonController - Started TestPersonController in 0.6 seconds (JVM running for 10.048)
+[INFO ] 16 Apr 2024 01:17:56 [main] PersonController - OK 201 - Create Person POST request for Raj Kumar
+[INFO ] 16 Apr 2024 01:17:56 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:56 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:56 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:57 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:57 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:57 [main] LoadData - Loaded from Json file : 
+184 persons 
+104 firestations 
+184 medicalrecords
+[INFO ] 16 Apr 2024 01:17:57 [main] TestPersonController - Started TestPersonController in 0.71 seconds (JVM running for 10.775)
+[ERROR] 16 Apr 2024 01:17:57 [main] PersonController - 404 FAILED - Not found : Test
+[INFO ] 16 Apr 2024 01:17:57 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:57 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:57 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:57 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:57 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:57 [main] LoadData - Loaded from Json file : 
+207 persons 
+117 firestations 
+207 medicalrecords
+[INFO ] 16 Apr 2024 01:17:58 [main] TestPersonController - Started TestPersonController in 0.665 seconds (JVM running for 11.455)
+[INFO ] 16 Apr 2024 01:17:58 [main] PersonController - OK 200 - CommunityEmail GET request
+[INFO ] 16 Apr 2024 01:17:58 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:58 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:58 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:58 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:58 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:58 [main] LoadData - Loaded from Json file : 
+230 persons 
+130 firestations 
+230 medicalrecords
+[INFO ] 16 Apr 2024 01:17:58 [main] TestPersonController - Started TestPersonController in 0.669 seconds (JVM running for 12.176)
+[INFO ] 16 Apr 2024 01:17:59 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:59 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:59 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:59 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:59 [main] LoadData - Loaded from Json file : 
+253 persons 
+143 firestations 
+253 medicalrecords
+[INFO ] 16 Apr 2024 01:17:59 [main] TestPersonController - Started TestPersonController in 0.701 seconds (JVM running for 12.897)
+[DEBUG] 16 Apr 2024 01:17:59 [main] PersonController - GET request received for personInfos: Gros
+[DEBUG] 16 Apr 2024 01:17:59 [main] PersonService - Request PersonInfo
+[DEBUG] 16 Apr 2024 01:17:59 [main] PersonService - Request PersonInfo OK
+[ERROR] 16 Apr 2024 01:17:59 [main] PersonController - 404 FAILED - No person found with LastName : Gros
+[INFO ] 16 Apr 2024 01:17:59 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:17:59 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:17:59 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:17:59 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:17:59 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:17:59 [main] LoadData - Loaded from Json file : 
+276 persons 
+156 firestations 
+276 medicalrecords
+[INFO ] 16 Apr 2024 01:18:00 [main] TestPersonController - Started TestPersonController in 0.489 seconds (JVM running for 13.403)
+[INFO ] 16 Apr 2024 01:18:00 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:00 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:00 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:00 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:00 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:00 [main] LoadData - Loaded from Json file : 
+299 persons 
+169 firestations 
+299 medicalrecords
+[INFO ] 16 Apr 2024 01:18:00 [main] TestPersonController - Started TestPersonController in 0.433 seconds (JVM running for 13.845)
+[DEBUG] 16 Apr 2024 01:18:00 [main] PersonController - GET request received for personInfos: Carman
+[DEBUG] 16 Apr 2024 01:18:00 [main] PersonService - Request PersonInfo
+[DEBUG] 16 Apr 2024 01:18:00 [main] PersonService - Request PersonInfo OK
+[INFO ] 16 Apr 2024 01:18:00 [main] PersonController - OK 200 - personInfos GET request
+[INFO ] 16 Apr 2024 01:18:00 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:00 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:00 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:00 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:00 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:00 [main] LoadData - Loaded from Json file : 
+322 persons 
+182 firestations 
+322 medicalrecords
+[INFO ] 16 Apr 2024 01:18:01 [main] TestPersonController - Started TestPersonController in 0.464 seconds (JVM running for 14.319)
+[DEBUG] 16 Apr 2024 01:18:01 [main] PersonController - GET request received for getChildAlert : 29 15th St
+[DEBUG] 16 Apr 2024 01:18:01 [main] PersonService - Request ChildAlert
+[ERROR] 16 Apr 2024 01:18:01 [main] PersonController - 404 FAILED - No household with child found : 29 15th St
+[INFO ] 16 Apr 2024 01:18:01 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:01 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:01 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:01 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:01 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:01 [main] LoadData - Loaded from Json file : 
+345 persons 
+195 firestations 
+345 medicalrecords
+[INFO ] 16 Apr 2024 01:18:01 [main] TestPersonController - Started TestPersonController in 0.442 seconds (JVM running for 14.77)
+[INFO ] 16 Apr 2024 01:18:01 [main] PersonController - OK 201 - Create Person POST request for Raj Kumar
+[INFO ] 16 Apr 2024 01:18:01 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:01 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:01 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:01 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:01 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:01 [main] LoadData - Loaded from Json file : 
+368 persons 
+208 firestations 
+368 medicalrecords
+[INFO ] 16 Apr 2024 01:18:02 [main] TestPersonController - Started TestPersonController in 0.477 seconds (JVM running for 15.257)
+[INFO ] 16 Apr 2024 01:18:02 [main] TestPersonController - Starting TestPersonController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:02 [main] TestPersonController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:02 [main] TestPersonController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:02 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:02 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:02 [main] LoadData - Loaded from Json file : 
+391 persons 
+221 firestations 
+391 medicalrecords
+[INFO ] 16 Apr 2024 01:18:02 [main] TestPersonController - Started TestPersonController in 0.424 seconds (JVM running for 15.695)
+[INFO ] 16 Apr 2024 01:18:02 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:02 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:02 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:02 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:02 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:02 [main] LoadData - Loaded from Json file : 
+414 persons 
+234 firestations 
+414 medicalrecords
+[INFO ] 16 Apr 2024 01:18:02 [main] TestFireStationController - Started TestFireStationController in 0.462 seconds (JVM running for 16.169)
+[ERROR] 16 Apr 2024 01:18:02 [main] FireStationController - FAILED 404 - No FireStation found : 20. Check the station number
+[INFO ] 16 Apr 2024 01:18:02 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:02 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:02 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:03 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:03 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:03 [main] LoadData - Loaded from Json file : 
+437 persons 
+247 firestations 
+437 medicalrecords
+[INFO ] 16 Apr 2024 01:18:03 [main] TestFireStationController - Started TestFireStationController in 0.424 seconds (JVM running for 16.604)
+[ERROR] 16 Apr 2024 01:18:03 [main] FireStationService - Address entered : Saint Pierre de Soucy City not exist.
+[INFO ] 16 Apr 2024 01:18:03 [main] FireStationController - 404 NOT FOUND - Please verify the address
+[INFO ] 16 Apr 2024 01:18:03 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:03 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:03 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:03 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:03 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:03 [main] LoadData - Loaded from Json file : 
+460 persons 
+260 firestations 
+460 medicalrecords
+[INFO ] 16 Apr 2024 01:18:03 [main] TestFireStationController - Started TestFireStationController in 0.428 seconds (JVM running for 17.04)
+[INFO ] 16 Apr 2024 01:18:03 [main] FireStationController - OK 200 - UpdateFireStation PUT request -  FireStation number : 2, Address : 892 Downing Ct
+[INFO ] 16 Apr 2024 01:18:03 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:03 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:03 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:03 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:03 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:03 [main] LoadData - Loaded from Json file : 
+483 persons 
+273 firestations 
+483 medicalrecords
+[INFO ] 16 Apr 2024 01:18:04 [main] TestFireStationController - Started TestFireStationController in 0.436 seconds (JVM running for 17.483)
+[INFO ] 16 Apr 2024 01:18:04 [main] FireStationController - OK 200 - addAddressForFireStation POST request -  FireStation number : 1, Address : NEW ADDRESS
+[INFO ] 16 Apr 2024 01:18:04 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:04 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:04 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:04 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:04 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:04 [main] LoadData - Loaded from Json file : 
+506 persons 
+286 firestations 
+506 medicalrecords
+[INFO ] 16 Apr 2024 01:18:04 [main] TestFireStationController - Started TestFireStationController in 0.418 seconds (JVM running for 17.916)
+[INFO ] 16 Apr 2024 01:18:04 [main] FireStationController - OK 200 - /flood/stations?stations=[2, 3]
+[INFO ] 16 Apr 2024 01:18:04 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:04 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:04 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:04 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:04 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:04 [main] LoadData - Loaded from Json file : 
+529 persons 
+299 firestations 
+529 medicalrecords
+[INFO ] 16 Apr 2024 01:18:05 [main] TestFireStationController - Started TestFireStationController in 0.466 seconds (JVM running for 18.408)
+[ERROR] 16 Apr 2024 01:18:05 [main] FireStationService - Address enter : [947 E. Rose Dr, 1] already exist 
+[INFO ] 16 Apr 2024 01:18:05 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:05 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:05 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:05 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:05 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:05 [main] LoadData - Loaded from Json file : 
+552 persons 
+312 firestations 
+552 medicalrecords
+[INFO ] 16 Apr 2024 01:18:05 [main] TestFireStationController - Started TestFireStationController in 0.397 seconds (JVM running for 18.812)
+[INFO ] 16 Apr 2024 01:18:05 [main] FireStationController - OK 200 - DeleteFireStation DELETE request -  Address : 951 LoneTree Rd
+[INFO ] 16 Apr 2024 01:18:05 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:05 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:05 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:05 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:05 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:05 [main] LoadData - Loaded from Json file : 
+575 persons 
+325 firestations 
+575 medicalrecords
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - Started TestFireStationController in 0.415 seconds (JVM running for 19.236)
+[ERROR] 16 Apr 2024 01:18:06 [main] FireStationController - FAILED 404 - No FireStation found : 499. Check the station number
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:06 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:06 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:06 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:06 [main] LoadData - Loaded from Json file : 
+598 persons 
+338 firestations 
+598 medicalrecords
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - Started TestFireStationController in 0.438 seconds (JVM running for 19.681)
+[ERROR] 16 Apr 2024 01:18:06 [main] FireStationController - FAILED 200 - /fire?address=INCONNU
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:06 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:06 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:06 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:06 [main] LoadData - Loaded from Json file : 
+621 persons 
+351 firestations 
+621 medicalrecords
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - Started TestFireStationController in 0.463 seconds (JVM running for 20.153)
+[INFO ] 16 Apr 2024 01:18:06 [main] FireStationController - OK 200 - /phoneAlert?firestation=1
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:06 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:06 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:07 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:07 [main] LoadData - Loaded from Json file : 
+644 persons 
+364 firestations 
+644 medicalrecords
+[INFO ] 16 Apr 2024 01:18:07 [main] TestFireStationController - Started TestFireStationController in 0.435 seconds (JVM running for 20.595)
+[ERROR] 16 Apr 2024 01:18:07 [main] FireStationService - No station found 33
+[ERROR] 16 Apr 2024 01:18:07 [main] FireStationController - FAILED 404 - /flood/stations?stations=[33]
+[INFO ] 16 Apr 2024 01:18:07 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:07 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:07 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:07 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:07 [main] LoadData - Loaded from Json file : 
+667 persons 
+377 firestations 
+667 medicalrecords
+[INFO ] 16 Apr 2024 01:18:07 [main] TestFireStationController - Started TestFireStationController in 0.419 seconds (JVM running for 21.021)
+[INFO ] 16 Apr 2024 01:18:07 [main] FireStationController - OK 200 - /fire?address=951 LoneTree Rd
+[INFO ] 16 Apr 2024 01:18:07 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:07 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:07 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:07 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:07 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:07 [main] LoadData - Loaded from Json file : 
+690 persons 
+390 firestations 
+690 medicalrecords
+[INFO ] 16 Apr 2024 01:18:08 [main] TestFireStationController - Started TestFireStationController in 0.412 seconds (JVM running for 21.445)
+[ERROR] 16 Apr 2024 01:18:08 [main] FireStationService - Address enter : [892 Downing Ct, 2] already exist 
+[INFO ] 16 Apr 2024 01:18:08 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:08 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:08 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:08 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:08 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:08 [main] LoadData - Loaded from Json file : 
+713 persons 
+403 firestations 
+713 medicalrecords
+[INFO ] 16 Apr 2024 01:18:08 [main] TestFireStationController - Started TestFireStationController in 0.398 seconds (JVM running for 21.849)
+[ERROR] 16 Apr 2024 01:18:08 [main] FireStationService - Address enter : [748 Townings Dr, 3] already exist 
+[INFO ] 16 Apr 2024 01:18:08 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:08 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:08 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:08 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:08 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:08 [main] LoadData - Loaded from Json file : 
+736 persons 
+416 firestations 
+736 medicalrecords
+[INFO ] 16 Apr 2024 01:18:09 [main] TestFireStationController - Started TestFireStationController in 0.413 seconds (JVM running for 22.269)
+[ERROR] 16 Apr 2024 01:18:09 [main] FireStationService - Address enter : [489 Manchester St, 4] already exist 
+[INFO ] 16 Apr 2024 01:18:09 [main] TestFireStationController - Starting TestFireStationController on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:09 [main] TestFireStationController - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:09 [main] TestFireStationController - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:09 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:09 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:09 [main] LoadData - Loaded from Json file : 
+759 persons 
+429 firestations 
+759 medicalrecords
+[INFO ] 16 Apr 2024 01:18:09 [main] TestFireStationController - Started TestFireStationController in 0.4 seconds (JVM running for 22.677)
+[ERROR] 16 Apr 2024 01:18:09 [main] FireStationService - Address enter : [Unknown address, 1] does not exist.
+[INFO ] 16 Apr 2024 01:18:09 [main] TestFireStationService - Starting TestFireStationService on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:09 [main] TestFireStationService - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:09 [main] TestFireStationService - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:09 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:09 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:09 [main] LoadData - Loaded from Json file : 
+782 persons 
+442 firestations 
+782 medicalrecords
+[INFO ] 16 Apr 2024 01:18:09 [main] TestFireStationService - Started TestFireStationService in 0.249 seconds (JVM running for 23.084)
+[ERROR] 16 Apr 2024 01:18:09 [main] FireStationService - Address enter : [908 73rd St, 2] already exist 
+[INFO ] 16 Apr 2024 01:18:09 [main] PersonServiceTest - Starting PersonServiceTest on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:09 [main] PersonServiceTest - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:09 [main] PersonServiceTest - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:09 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:09 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:09 [main] LoadData - Loaded from Json file : 
+805 persons 
+455 firestations 
+805 medicalrecords
+[INFO ] 16 Apr 2024 01:18:10 [main] PersonServiceTest - Started PersonServiceTest in 0.233 seconds (JVM running for 23.405)
+[DEBUG] 16 Apr 2024 01:18:10 [main] PersonService - Request ChildAlert
+[DEBUG] 16 Apr 2024 01:18:10 [main] PersonService - Request ChildAlert
+[DEBUG] 16 Apr 2024 01:18:10 [main] PersonService - Request PersonInfo
+[DEBUG] 16 Apr 2024 01:18:10 [main] PersonService - Request PersonInfo OK
+[DEBUG] 16 Apr 2024 01:18:10 [main] PersonService - Request PersonInfo
+[DEBUG] 16 Apr 2024 01:18:10 [main] PersonService - Request PersonInfo OK
+[ERROR] 16 Apr 2024 01:18:10 [main] PersonService - Error create person : John Boyd, person already exist
+[DEBUG] 16 Apr 2024 01:18:10 [main] PersonService - Request ChildAlert
+[INFO ] 16 Apr 2024 01:18:10 [main] TestMedicalRecordService - Starting TestMedicalRecordService on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:10 [main] TestMedicalRecordService - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:10 [main] TestMedicalRecordService - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:10 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Loaded from Json file : 
+828 persons 
+468 firestations 
+828 medicalrecords
+[INFO ] 16 Apr 2024 01:18:10 [main] TestMedicalRecordService - Started TestMedicalRecordService in 0.241 seconds (JVM running for 23.711)
+[ERROR] 16 Apr 2024 01:18:10 [main] MedicalRecordService - Error create the MedicalRecord : Nicolas Gros, already existant
+[ERROR] 16 Apr 2024 01:18:10 [main] MedicalRecordService - Error create the MedicalRecord : John Boyd, already existant
+[ERROR] 16 Apr 2024 01:18:10 [main] AgeCalculator - Invalid Birthday
+[DEBUG] 16 Apr 2024 01:18:10 [main] AgeCalculator - Infant
+[ERROR] 16 Apr 2024 01:18:10 [main] AgeCalculator - Invalid Birthday
+[ERROR] 16 Apr 2024 01:18:10 [main] AgeCalculator - Invalid Birthday
+[INFO ] 16 Apr 2024 01:18:10 [main] TestDataLoader - Starting TestDataLoader on DESKTOP-963T2F1 with PID 22572 (started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:18:10 [main] TestDataLoader - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:18:10 [main] TestDataLoader - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:18:10 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Loaded from Json file : 
+851 persons 
+481 firestations 
+851 medicalrecords
+[INFO ] 16 Apr 2024 01:18:10 [main] TestDataLoader - Started TestDataLoader in 0.367 seconds (JVM running for 24.122)
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Loaded from Json file : 
+874 persons 
+494 firestations 
+874 medicalrecords
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Loaded from Json file : 
+897 persons 
+507 firestations 
+897 medicalrecords
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Loaded from Json file : 
+920 persons 
+520 firestations 
+920 medicalrecords
+[DEBUG] 16 Apr 2024 01:18:10 [main] LoadData - Initialization Data
+[INFO ] 16 Apr 2024 01:22:32 [main] SafetyNetAlertsApplication - Starting SafetyNetAlertsApplication on DESKTOP-963T2F1 with PID 23480 (C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master\target\classes started by rk in C:\Users\rk\Documents\workspace-spring-tool-suite-4-4.21.1.RELEASE\SafetyNet-master)
+[DEBUG] 16 Apr 2024 01:22:32 [main] SafetyNetAlertsApplication - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+[INFO ] 16 Apr 2024 01:22:32 [main] SafetyNetAlertsApplication - No active profile set, falling back to default profiles: default
+[DEBUG] 16 Apr 2024 01:22:34 [main] SafetyNetAlertsApplication - Loading Data.json file to memory... 
+[DEBUG] 16 Apr 2024 01:22:34 [main] LoadData - Initialization Data
+[DEBUG] 16 Apr 2024 01:22:34 [main] LoadData - Loaded from Json file : 
+23 persons 
+13 firestations 
+23 medicalrecords
+[INFO ] 16 Apr 2024 01:22:36 [main] SafetyNetAlertsApplication - Started SafetyNetAlertsApplication in 3.627 seconds (JVM running for 11.863)
+[ERROR] 16 Apr 2024 01:22:37 [http-nio-8080-exec-1] FireStationService - No station found <a
+[ERROR] 16 Apr 2024 01:22:37 [http-nio-8080-exec-1] FireStationController - FAILED 404 - /flood/stations?stations=[<a]
+[INFO ] 16 Apr 2024 01:22:44 [http-nio-8080-exec-2] FireStationController - OK 200 - /flood/stations?stations=[2]
+[INFO ] 16 Apr 2024 01:23:05 [http-nio-8080-exec-4] FireStationController - OK 200 - /flood/stations?stations=[2]
