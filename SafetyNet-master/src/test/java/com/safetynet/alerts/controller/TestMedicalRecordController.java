@@ -21,7 +21,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
-class TestMedicalRecordController {
+class TestMedicalRecordsController {
 
 	@Autowired
 	private MockMvc mockMvc;
@@ -39,10 +39,10 @@ class TestMedicalRecordController {
 	void errorCreateUnknownPersonWithMedicalRecord() throws Exception {
 		this.mockMvc
 				.perform(MockMvcRequestBuilders.post("/medicalRecord").contentType(APPLICATION_JSON)
-						.content(" { \r\n" + "     \"firstName\":\"Raj\", \r\n" + "     \"lastName\":\"K\", \r\n"
-								+ "     \"birthdate\":\"02/03/1989\", \r\n"
-								+ "     \"medications\":[\"metmorfhin:500mg\", \"janumet:1000mg\"], \r\n"
-								+ "     \"allergies\":[\"none\"] \r\n" + "     }")
+						.content(" { \r\n" + "     \"firstName\":\"Nicolas\", \r\n" + "     \"lastName\":\"Gros\", \r\n"
+								+ "     \"birthdate\":\"23/03/1993\", \r\n"
+								+ "     \"medications\":[\"hydroxychloroquine:6350mg\", \"anticovid:1000mg\"], \r\n"
+								+ "     \"allergies\":[\"fourmisdesneiges\"] \r\n" + "     }")
 						.accept(APPLICATION_JSON))
 				.andDo(MockMvcResultHandlers.print()).andExpect(status().isConflict());
 	}
@@ -53,9 +53,9 @@ class TestMedicalRecordController {
 	void updatePersonOkWithMedicalRecordAndReturnIsOk() throws Exception {
 		this.mockMvc
 				.perform(MockMvcRequestBuilders.put("/medicalRecord").contentType(APPLICATION_JSON)
-						.content(" { \r\n" + "     \"firstName\":\"test\", \r\n" + "     \"lastName\":\"test\", \r\n"
-								+ "     \"birthdate\":\"03/03/1956\", \r\n"
-								+ "     \"medications\":[\"test:500mg\", \"dolo650:1000mg\"], \r\n"
+						.content(" { \r\n" + "     \"firstName\":\"Tessa\", \r\n" + "     \"lastName\":\"Carman\", \r\n"
+								+ "     \"birthdate\":\"03/03/1856\", \r\n"
+								+ "     \"medications\":[\"NEW MEDICATION:1550mg\", \"doliprane:1000mg\"], \r\n"
 								+ "     \"allergies\":[\"NEW ALLERGY\"] \r\n" + "     }")
 						.accept(MediaType.APPLICATION_JSON))
 				.andDo(MockMvcResultHandlers.print()).andExpect(status().isOk());
@@ -67,9 +67,9 @@ class TestMedicalRecordController {
 	void updatePersonErrorWithUnknownPerson() throws Exception {
 		this.mockMvc
 				.perform(MockMvcRequestBuilders.put("/medicalRecord").contentType(APPLICATION_JSON)
-						.content(" { \r\n" + "     \"firstName\":\"test\", \r\n" + "     \"lastName\":\"test\", \r\n"
-								+ "     \"birthdate\":\"20/12/1989\", \r\n"
-								+ "     \"medications\":[\"testm1:10mg\", \"testm2:10mg\"], \r\n"
+						.content(" { \r\n" + "     \"firstName\":\"JeanJacques\", \r\n"
+								+ "     \"lastName\":\"Goldman\", \r\n" + "     \"birthdate\":\"25/12/1945\", \r\n"
+								+ "     \"medications\":[\"NEW MEDICATION:10mg\", \"doliprane:10mg\"], \r\n"
 								+ "     \"allergies\":[\"NEW ALLERGY:araignees\"] \r\n" + "     }"))
 				.andExpect(status().isNotFound());
 	}
@@ -79,7 +79,7 @@ class TestMedicalRecordController {
 	@DisplayName("DELETE Person OK when is in the list")
 	void deletePersonOkWhenMedicalRecordIsDeleteAndInTheList() throws Exception {
 		this.mockMvc.perform(
-				MockMvcRequestBuilders.delete("/medicalRecord").param("firstName", "Raj").param("lastName", "K"))
+				MockMvcRequestBuilders.delete("/medicalRecord").param("firstName", "Tessa").param("lastName", "Carman"))
 				.andExpect(status().isOk());
 	}
 
@@ -88,7 +88,7 @@ class TestMedicalRecordController {
 	@DisplayName("DELETE Person ERROR when Unknown Person")
 	void deletePersonErrorWhenUnknownPerson() throws Exception {
 		this.mockMvc.perform(
-				MockMvcRequestBuilders.delete("/medicalRecord").param("firstName", "test").param("lastName", "test"))
+				MockMvcRequestBuilders.delete("/medicalRecord").param("firstName", "Nicolas").param("lastName", "Gros"))
 				.andExpect(status().isNotFound());
 	}
 

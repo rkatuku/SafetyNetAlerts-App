@@ -18,13 +18,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatNullPointerException;
 import static org.mockito.Mockito.when;
 
-/**
- * FireStationService units tests class
- */
 @WebMvcTest(FireStationService.class)
 @ExtendWith(MockitoExtension.class)
 class TestFireStationService {
-
 	@InjectMocks
 	private FireStationService fireStationService;
 	@Mock
@@ -135,6 +131,7 @@ class TestFireStationService {
 		firestationsList.put("1", firestation1);
 		firestationsList.put("2", firestation2);
 		firestationsList.put("3", firestation3);
+
 		Map<String, String> firestationMappingToUpdate = new HashMap<String, String>();
 		firestationMappingToUpdate.put("station", "2");
 		firestationMappingToUpdate.put("address", "908 73rd St");

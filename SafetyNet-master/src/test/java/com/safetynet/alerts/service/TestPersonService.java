@@ -26,7 +26,7 @@ import static org.mockito.Mockito.when;
 
 @WebMvcTest(PersonService.class)
 @ExtendWith(MockitoExtension.class)
-class PersonServiceTest {
+class TestPersonService {
 
 	@InjectMocks
 	private PersonService personService;
@@ -34,8 +34,8 @@ class PersonServiceTest {
 	@Mock
 	private AllInfo allInformations;
 
-	private static final String adultBirthday = "04/13/1987";
-	private static final String childBirthday = "01/05/2020";
+	private static final String adultBirthday = "03/23/1993";
+	private static final String childBirthday = "01/01/2020";
 	private static MedicalRecord medicalRecordAdult;
 	private static MedicalRecord medicalRecordChild;
 	private static Person person1;
@@ -158,7 +158,6 @@ class PersonServiceTest {
 		person3 = new Person("Eric", "Cadigan", "951 LoneTree Rd", "Culver", "97451", "841-874-7458",
 				"gramps@email.com", medicalRecordChild);
 
-		// ajout meme personne dans foyer
 		List<Person> householdMembersList = new ArrayList<>();
 		householdMembersList.add(person1);
 		householdMembersList.add(person2);
@@ -361,7 +360,7 @@ class PersonServiceTest {
 		when(allInformations.getPersonsList()).thenReturn(personsList);
 		Person personToDelete = person1;
 		personService.deletePerson(personToDelete);
-		assertThat(personsList.size()).isEqualTo(1); 
+		assertThat(personsList.size()).isEqualTo(1); // Check changed size list
 	}
 
 	@Test
@@ -377,7 +376,7 @@ class PersonServiceTest {
 		Person personToDelete = new Person("Unknow", "Person", "1509 Culver St", "Culver", "97451", "841-874-6512",
 				"jaboyd@email.com");
 		personService.deletePerson(personToDelete);
-		assertThat(personsList.size()).isEqualTo(2); 
+		assertThat(personsList.size()).isEqualTo(2); // Check unchanged size list
 	}
 
 }

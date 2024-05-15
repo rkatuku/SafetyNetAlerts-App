@@ -1,7 +1,7 @@
 package com.safetynet.alerts.utils;
 
 import com.safetynet.alerts.status.Status;
-//import com.safetynet.alerts.model.MedicalRecord;
+import com.safetynet.alerts.model.MedicalRecord;
 import com.safetynet.alerts.model.Person;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -23,9 +23,9 @@ class TestAgeCalculator {
 	@BeforeEach
 	private void setUp() {
 		formatDate = DateTimeFormatter.ofPattern(Status.DATE);
-		// MedicalRecord medicalRecord = new MedicalRecord("03/23/1993", null, null);
-		newPerson = new Person("testf", "testl", "testAddress", "testCity", "52711", "515-313-3423",
-				"nicolas@gros.com");
+		MedicalRecord medicalRecord = new MedicalRecord("03/23/1993", null, null);
+		newPerson = new Person("Nicolas", "Gros", "Les Richards", "Saint Pierre de Soucy", "73800", "333-333-3333",
+				"nicolas@gros.com", medicalRecord);
 	}
 
 	@Test
@@ -131,5 +131,4 @@ class TestAgeCalculator {
 			AgeCalculator.isChild(newPerson);
 		});
 	}
-
 }

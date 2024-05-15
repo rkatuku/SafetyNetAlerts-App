@@ -18,9 +18,6 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
-/**
- * MedicalRecordService units tests class
- */
 @WebMvcTest(MedicalRecordService.class)
 @ExtendWith(MockitoExtension.class)
 class TestMedicalRecordService {
@@ -30,16 +27,16 @@ class TestMedicalRecordService {
 
 	@Mock
 	private AllInfo allInformations;
-	private static final String BIRTHDAY_ADULT = "18/01/1991";
+	private static final String BIRTHDAY_ADULT = "23/03/1993";
 	private static final MedicalRecord medicalRecordAdult;
 	private static final List<String> listMedications;
 	private static final List<String> listAllergies;
 
 	static {
 		listMedications = new ArrayList<>();
-		listMedications.add("Test Medication 1");
+		listMedications.add("MedicationAdd1");
 		listAllergies = new ArrayList<>();
-		listAllergies.add("Test Allergies 1");
+		listAllergies.add("AllergiesAdd");
 		medicalRecordAdult = new MedicalRecord(BIRTHDAY_ADULT, listMedications, listAllergies);
 	}
 
@@ -47,7 +44,7 @@ class TestMedicalRecordService {
 	@Tag("POST")
 	@DisplayName("CREATE Person OK Without MedicalRecord")
 	void createPersonOkWithoutMedicalRecord() {
-		// GIVEN
+
 		List<Person> personsList = new ArrayList<>();
 		Person person1 = new Person("John", "Boyd", "1509 Culver St", "Culver", "97451", "841-874-6512",
 				"jaboyd@email.com", medicalRecordAdult);
@@ -62,9 +59,9 @@ class TestMedicalRecordService {
 		allergiesList.add("allergies");
 		MedicalRecord newMedicalRecord = new MedicalRecord("Jacob", "Boyd", BIRTHDAY_ADULT, medicationsList,
 				allergiesList);
-		// WHEN
+
 		MedicalRecord result = medicalRecordService.createMedicalRecord(newMedicalRecord);
-		// THEN
+
 		assertThat(result).isNotNull();
 	}
 
@@ -201,4 +198,5 @@ class TestMedicalRecordService {
 		boolean result = medicalRecordService.deleteMedicalRecord("Nicolas", "Gros");
 		assertThat(result).isFalse();
 	}
+
 }

@@ -28,8 +28,8 @@ class TestDataLoader {
 
 	@BeforeEach
 	private void setUp() throws IOException {
-		person1 = new Person("Test", "Test", "1509 Culver St", "Culver", "97451", "841-874-6512", "testt@email.com");
-		person2 = new Person("Test1", "Test1", "1509 Culver St", "Culver", "97451", "841-874-6513", "test1t@email.com");
+		person1 = new Person("John", "Boyd", "1509 Culver St", "Culver", "97451", "841-874-6512", "jaboyd@email.com");
+		person2 = new Person("Jacob", "Boyd", "1509 Culver St", "Culver", "97451", "841-874-6513", "drk@email.com");
 	}
 
 	@Test
